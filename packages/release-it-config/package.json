@@ -1,14 +1,12 @@
 {
   "name": "@frsource/release-it-config",
-  "version": "1.0.0",
-  "main": "dist/index.cjs",
-  "types": "dist/index.d.ts",
+  "version": "0.0.0",
+  "main": "index.cjs",
   "type": "module",
   "scripts": {
     "release": "release-it"
   },
   "dependencies": {
-    "@release-it/bumper": "^6.0.1",
     "@release-it/conventional-changelog": "^8.0.1"
   },
   "devDependencies": {
@@ -17,13 +15,14 @@
   "peerDependencies": {
     "release-it": ">= 17"
   },
-  "homepage": "https://github.com/FRSOURCE/tooling/",
+  "homepage": "https://github.com/FRSOURCE/toolkit/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FRSOURCE/tooling.git"
+    "url": "git+https://github.com/FRSOURCE/toolkit.git",
+    "directory": "packages/release-it-config"
   },
   "bugs": {
-    "url": "https://github.com/FRSOURCE/tooling/issues"
+    "url": "https://github.com/FRSOURCE/toolkit/issues"
   },
   "author": "Jakub Freisler <jakub@frsource.org>",
   "license": "MIT",

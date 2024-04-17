@@ -1,6 +1,7 @@
+const { name } = require("./package.json");
 const { monorepoIndependent } = require("@frsource/release-it-config");
 
 module.exports = monorepoIndependent({
-  name: "eslint-config",
+  pkgName: name,
   buildCmd: "", // no build needed
 });

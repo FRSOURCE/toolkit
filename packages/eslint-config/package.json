@@ -1,6 +1,6 @@
 {
   "name": "@frsource/eslint-config",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "main": "index.mjs",
   "type": "module",
   "scripts": {
@@ -18,13 +18,14 @@
   "peerDependencies": {
     "eslint": ">= 9"
   },
-  "homepage": "https://github.com/FRSOURCE/tooling/",
+  "homepage": "https://github.com/FRSOURCE/toolkit/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FRSOURCE/tooling.git"
+    "url": "git+https://github.com/FRSOURCE/toolkit.git",
+    "directory": "packages/eslint"
   },
   "bugs": {
-    "url": "https://github.com/FRSOURCE/tooling/issues"
+    "url": "https://github.com/FRSOURCE/toolkit/issues"
   },
   "author": "Jakub Freisler <jakub@frsource.org>",
   "license": "MIT",

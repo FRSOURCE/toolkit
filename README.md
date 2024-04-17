@@ -1,3 +1,6 @@
-# FRSOURCE Tooling
+# FRSOURCE Toolkit
 
-A repository that holds configuration files for tooling used throughout the FRSOURCE organization.
+A repository that holds shared toolkit used throughout the FRSOURCE organization:
+
+- configuration files,
+- GitHub Actions scripts.
