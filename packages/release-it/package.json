@@ -1,0 +1,37 @@
+{
+  "name": "@frsource/release-it-config",
+  "version": "1.0.0",
+  "main": "index.cjs",
+  "type": "module",
+  "scripts": {
+    "release": "release-it --config index.cjs"
+  },
+  "dependencies": {
+    "@release-it/bumper": "^6.0.1",
+    "@release-it/conventional-changelog": "^8.0.1"
+  },
+  "devDependencies": {
+    "release-it": "^17.2.0"
+  },
+  "peerDependencies": {
+    "release-it": ">= 17"
+  },
+  "homepage": "https://github.com/FRSOURCE/tooling/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FRSOURCE/tooling.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FRSOURCE/tooling/issues"
+  },
+  "author": "Jakub Freisler <jakub@frsource.org>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "packageManager": "pnpm@8.14.1",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ]
+}

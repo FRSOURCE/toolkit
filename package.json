@@ -1,0 +1,17 @@
+{
+  "name": "@frsource/frschool-root",
+  "private": true,
+  "author": "FRSOURCE",
+  "packageManager": "pnpm@8.15.5",
+  "engines": {
+    "node": ">=18.x.x",
+    "npm": ">=8.x.x",
+    "pnpm": ">=8.7.6"
+  },
+  "scripts": {
+    "release": "release-it"
+  },
+  "devDependencies": {
+    "release-it": "^17.2.0"
+  }
+}

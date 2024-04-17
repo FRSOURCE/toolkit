@@ -1,0 +1,135 @@
+name: build & deploy (stage)
+on:
+  workflow_dispatch:
+  workflow_call:
+    inputs:
+      DATABASE_USER:
+        required: true
+        type: string
+      DATABASE_NAME:
+        required: true
+        type: string
+      EMAIL_HOST:
+        required: true
+        type: string
+      EMAIL_PASS:
+        required: true
+        type: string
+      EMAIL_PORT:
+        required: true
+        type: string
+      EMAIL_USER:
+        required: true
+        type: string
+      skip-deploy:
+        required: true
+        type: string
+
+jobs:
+  api_build_stage:
+    name: Build API and DB (staging)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: FRSOURCE/nginx-proxy/.github/actions/setup-ssh@main
+        if: ${{ (inputs && inputs.skip-deploy || 'false') == 'false' }}
+        with:
+          HOST: ${{ secrets.FRSCHOOL_SSH_HOST }}
+          PRIVATE_KEY: ${{ secrets.FRSCHOOL_SSH_PRIVATE_KEY }}
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - uses: ./.github/actions/docker-build-push-and-pull-on-host
+        with:
+          HOST: ${{ secrets.FRSCHOOL_SSH_HOST }}
+          APP_ENV: staging
+          working-directory: ./e-learning/api
+          project-name: e-learning-stage
+          skip-deploy: ${{ inputs && inputs.skip-deploy || 'false' }}
+        env:
+          VERSION_TAG: pr-${{ github.event.pull_request.number }}-${{ github.sha }}
+          DATABASE_USER: ${{ inputs && inputs.DATABASE_USER || vars.ELEARNING_STAGE_DATABASE_USER }}
+          DATABASE_PASSWORD: ${{ secrets.ELEARNING_STAGE_DATABASE_PASSWORD }}
+          DATABASE_NAME: ${{ inputs && inputs.DATABASE_NAME || vars.ELEARNING_STAGE_DATABASE_NAME }}
+          SESSION_COOKIE_SECRET: ${{ secrets.ELEARNING_STAGE_API_SESSION_COOKIE_SECRET }}
+          EMAIL_HOST: ${{ inputs && inputs.EMAIL_HOST || vars.ELEARNING_API_EMAIL_HOST }}
+          EMAIL_PASS: ${{ inputs && inputs.EMAIL_PASS || vars.ELEARNING_API_EMAIL_PASS }}
+          EMAIL_PORT: ${{ inputs && inputs.EMAIL_PORT || vars.ELEARNING_API_EMAIL_PORT }}
+          EMAIL_USER: ${{ inputs && inputs.EMAIL_USER || vars.ELEARNING_API_EMAIL_USER }}
+
+  web_build_stage:
+    name: Build Web (staging)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: FRSOURCE/nginx-proxy/.github/actions/setup-ssh@main
+        if: ${{ (inputs && inputs.skip-deploy || 'false') == 'false' }}
+        with:
+          HOST: ${{ secrets.FRSCHOOL_SSH_HOST }}
+          PRIVATE_KEY: ${{ secrets.FRSCHOOL_SSH_PRIVATE_KEY }}
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - uses: ./.github/actions/docker-build-push-and-pull-on-host
+        with:
+          HOST: ${{ secrets.FRSCHOOL_SSH_HOST }}
+          APP_ENV: staging
+          working-directory: ./e-learning/web
+          project-name: e-learning-stage
+          skip-deploy: ${{ inputs && inputs.skip-deploy || 'false' }}
+        env:
+          VERSION_TAG: pr-${{ github.event.pull_request.number }}-${{ github.sha }}
+
+  deploy_stage:
+    needs: [web_build_stage, api_build_stage]
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    if: ${{ (inputs && inputs.skip-deploy || 'false') == 'false' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: FRSOURCE/nginx-proxy/.github/actions/setup-ssh@main
+        with:
+          HOST: ${{ secrets.FRSCHOOL_SSH_HOST }}
+          PRIVATE_KEY: ${{ secrets.FRSCHOOL_SSH_PRIVATE_KEY }}
+      - uses: FRSOURCE/nginx-proxy/.github/actions/setup-ssh-docker-context@main
+        with:
+          HOST: ${{ secrets.FRSCHOOL_SSH_HOST }}
+      # IDEA: bring up maintenance screen for a moment when the deploy happens
+      - uses: ./.github/actions/docker-run
+        with:
+          APP_ENV: staging
+          working-directory: ./e-learning/api
+          project-name: e-learning-stage
+        env:
+          VERSION_TAG: pr-${{ github.event.pull_request.number }}-${{ github.sha }}
+          DATABASE_USER: ${{ inputs && inputs.DATABASE_USER || vars.ELEARNING_STAGE_DATABASE_USER }}
+          DATABASE_PASSWORD: ${{ secrets.ELEARNING_STAGE_DATABASE_PASSWORD }}
+          DATABASE_NAME: ${{ inputs && inputs.DATABASE_NAME || vars.ELEARNING_STAGE_DATABASE_NAME }}
+          SESSION_COOKIE_SECRET: ${{ secrets.ELEARNING_STAGE_API_SESSION_COOKIE_SECRET }}
+          EMAIL_HOST: ${{ inputs && inputs.EMAIL_HOST || vars.ELEARNING_API_EMAIL_HOST }}
+          EMAIL_PASS: ${{ inputs && inputs.EMAIL_PASS || vars.ELEARNING_API_EMAIL_PASS }}
+          EMAIL_PORT: ${{ inputs && inputs.EMAIL_PORT || vars.ELEARNING_API_EMAIL_PORT }}
+          EMAIL_USER: ${{ inputs && inputs.EMAIL_USER || vars.ELEARNING_API_EMAIL_USER }}
+      - uses: ./.github/actions/docker-run
+        with:
+          APP_ENV: staging
+          working-directory: ./e-learning/web
+          project-name: e-learning-stage
+        env:
+          VERSION_TAG: pr-${{ github.event.pull_request.number }}-${{ github.sha }}
+      - name: Removes unused images older than 2 days from Vultr server
+        # older images are available on github packages docker repository here:
+        # https://github.com/orgs/FRSOURCE/packages?repo_name=frschool
+        run: docker image prune -a --force --filter "until=48h"
+      - uses: ./.github/actions/trigger-e2e
+        with:
+          e2e-type: 'staging'
+          PAT_TOKEN: ${{ secrets.ELEARNING_TESTING_PAT_TOKEN }}
