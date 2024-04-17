@@ -1,10 +1,11 @@
 {
   "name": "@frsource/release-it-config",
   "version": "1.0.0",
-  "main": "index.cjs",
+  "main": "dist/index.cjs",
+  "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
-    "release": "release-it --config index.cjs"
+    "release": "release-it"
   },
   "dependencies": {
     "@release-it/bumper": "^6.0.1",
@@ -31,7 +32,7 @@
   },
   "packageManager": "pnpm@8.14.1",
   "keywords": [
-    "eslint",
-    "eslintconfig"
+    "release-it",
+    "release-it config"
   ]
 }

@@ -9,9 +9,6 @@
     "pnpm": ">=8.7.6"
   },
   "scripts": {
-    "release": "release-it"
-  },
-  "devDependencies": {
-    "release-it": "^17.2.0"
+    "release": "pnpm run -r release"
   }
 }
