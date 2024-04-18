@@ -19,8 +19,7 @@ module.exports = ({
   return {
     npm: {
       publishPath: "package-pack.tgz",
-      publish: false,
-      versionArgs: ["--allow-same-version"],
+      publish: true,
     },
     git: {
       requireBranch: "main",
@@ -59,8 +58,8 @@ module.exports = ({
         "pnpm install",
         `git add ${"../".repeat(nestingLevel)}pnpm-lock.yaml`,
       ],
-      // "before:npm:release": "mv $(pnpm pack) package-pack.tgz",
-      // "after:npm:release": "rm package-pack.tgz",
+      "before:npm:release": "mv $(pnpm pack) package-pack.tgz",
+      "after:npm:release": "rm package-pack.tgz",
     },
   };
 };
