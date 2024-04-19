@@ -1,5 +1,7 @@
 
 
+# [1.2.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.1.0...${npm.name}-v1.2.0) (2024-04-19)
+
 # [1.1.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.0.2...${npm.name}-v1.1.0) (2024-04-19)
 
 
