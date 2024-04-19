@@ -4,22 +4,16 @@ const path = require("path");
  * Configuration for independent package in monorepo workspace
  * @param {Object} options
  * @param {string} options.pkgName name of the package in the monorepo, e.g. `@frsource/my-package`
- * @param {string} [options.path=`packages/${options.pkgName}`] path of the package relative to the monorepo root, without starting slash. Always use "/" as delimiter. Will default to `packages/${options.pkgName}` (package scope in `options.pkgName` will be omitted)
  * @param {string} [options.buildCmd="pnpm build"] command that should be used to build the package, defaults to `pnpm build`
  */
 module.exports = ({
   pkgName,
-  path: pkgPath = `packages/${pkgName.substring(pkgName.lastIndexOf("/") + 1)}`,
   buildCmd = "pnpm build",
   /**
    * @private (for internal usage)
    */
   pluginsPath = "@frsource/release-it-config",
 }) => {
-  if (pkgPath.startsWith("/")) pkgPath = pkgPath.substring(1);
-  const nestingLevel = pkgPath.split("/").length;
-  if (path.sep !== "/") pkgPath = pkgPath.replaceAll("/", path.sep);
-
   return {
     npm: {
       publishPath: "*.tgz",
@@ -59,10 +53,6 @@ module.exports = ({
     },
     hooks: {
       "before:bump": buildCmd,
-      "after:bump": [
-        "pnpm install",
-        `git add ${"../".repeat(nestingLevel)}pnpm-lock.yaml`,
-      ],
       "before:npm:release": "pnpm pack",
       "after:npm:release": "rm *.tgz",
     },

@@ -48,9 +48,7 @@ export default class FRSVersionPlugin extends Plugin {
     writeFileSync(
       VERSION_BUMP_INFO_PATH,
       `${this.config.getContext("name")}\n`,
-      {
-        flag: "as",
-      }
+      { flag: "as" }
     );
   }
 
