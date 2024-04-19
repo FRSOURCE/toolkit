@@ -1,4 +1,4 @@
-const nodePath = require("path");
+const path = require("path");
 
 /**
  * Configuration for independent package in monorepo workspace
@@ -9,21 +9,25 @@ const nodePath = require("path");
  */
 module.exports = ({
   pkgName,
-  path = `packages/${pkgName.substring(pkgName.lastIndexOf("/") + 1)}`,
+  path: pkgPath = `packages/${pkgName.substring(pkgName.lastIndexOf("/") + 1)}`,
   buildCmd = "pnpm build",
+  /**
+   * @private (for internal usage)
+   */
+  pluginsPath = "@frsource/release-it-config",
 }) => {
-  if (path.startsWith("/")) path = path.substring(1);
-  const nestingLevel = path.split("/").length;
-  if (nodePath.sep !== "/") path = path.replaceAll("/", nodePath.sep);
+  if (pkgPath.startsWith("/")) pkgPath = pkgPath.substring(1);
+  const nestingLevel = pkgPath.split("/").length;
+  if (path.sep !== "/") pkgPath = pkgPath.replaceAll("/", path.sep);
 
   return {
     npm: {
-      publishPath: "package-pack.tgz",
+      publishPath: "*.tgz",
       publish: true,
     },
     git: {
       requireBranch: "main",
-      requireCommits: true,
+      requireCommits: false,
       requireCommitsFail: false, // if there are no new commits release-it will stop the release process, but without throwing and error
       requireCleanWorkingDir: true,
       commitsPath: ".",
@@ -46,11 +50,12 @@ module.exports = ({
     plugins: {
       "@release-it/conventional-changelog": {
         gitRawCommitsOpts: {
-          path,
+          path: pkgPath,
         },
         preset: "angular",
         infile: "CHANGELOG.md",
       },
+      [`${pluginsPath}/version-plugin.mjs`]: {},
     },
     hooks: {
       "before:bump": buildCmd,
@@ -58,8 +63,8 @@ module.exports = ({
         "pnpm install",
         `git add ${"../".repeat(nestingLevel)}pnpm-lock.yaml`,
       ],
-      "before:npm:release": "mv $(pnpm pack) package-pack.tgz",
-      "after:npm:release": "rm package-pack.tgz",
+      "before:npm:release": "pnpm pack",
+      "after:npm:release": "rm *.tgz",
     },
   };
 };
