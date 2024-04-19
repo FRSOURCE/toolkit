@@ -50,7 +50,7 @@ module.exports = ({
     plugins: {
       "@release-it/conventional-changelog": {
         gitRawCommitsOpts: {
-          path: pkgPath,
+          path: ".",
         },
         preset: "angular",
         infile: "CHANGELOG.md",
