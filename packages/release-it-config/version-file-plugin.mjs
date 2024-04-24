@@ -18,15 +18,13 @@ class VersionFilePlugin extends Plugin {
     super(...args);
     this.setContext({ versionFile: path.resolve('./VERSION') });
   }
-  static isEnabled() {
+  init() {
     try {
       fs.accessSync(this.getContext('versionFile'));
-      return true;
     } catch {
       throw e('Skipping release: VERSION file not present.', false);
     }
-  }
-  init() {
+
     const data = fs.readFileSync(this.getContext('versionFile'));
     const latestVersion = data.toString().trim();
     this.setContext({ latestVersion });
