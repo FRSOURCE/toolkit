@@ -2,27 +2,41 @@
   "name": "@frsource/eslint-config",
   "version": "1.0.0",
   "main": "index.mjs",
+  "types": "index.d.mts",
   "type": "module",
   "scripts": {
-    "release": "release-it"
+    "build": "tsc index.mjs --declaration --emitDeclarationOnly --allowJs --moduleResolution bundler --target esnext",
+    "release": "release-it",
+    "eslint": "eslint .",
+    "prettier": "prettier . --check",
+    "lint": "pnpm eslint && pnpm prettier",
+    "fix": "pnpm eslint --fix && prettier . --write"
   },
   "dependencies": {
+    "@eslint/js": "^9.1.1",
     "@typescript-eslint/eslint-plugin": "6.11.0",
     "@typescript-eslint/parser": "6.11.0",
-    "eslint-config-prettier": "9.1.0"
+    "eslint-config-prettier": "9.1.0",
+    "globals": "^15.0.0",
+    "typescript-eslint": "^7.7.0"
   },
   "devDependencies": {
+    "@frsource/prettier-config": "workspace:*",
     "@frsource/release-it-config": "workspace:*",
-    "release-it": "^17.2.0"
+    "@types/eslint": "^8.56.10",
+    "eslint": "^9.1.0",
+    "release-it": "^17.2.0",
+    "typescript": "^5.4.5"
   },
   "peerDependencies": {
-    "eslint": ">= 9"
+    "eslint": ">= 9",
+    "typescript": ">= 5.0.0"
   },
   "homepage": "https://github.com/FRSOURCE/toolkit/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FRSOURCE/toolkit.git",
-    "directory": "packages/eslint"
+    "directory": "packages/eslint-config"
   },
   "bugs": {
     "url": "https://github.com/FRSOURCE/toolkit/issues"

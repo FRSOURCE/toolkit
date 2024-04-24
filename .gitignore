@@ -30,3 +30,7 @@ dist-ssr
 **/.env
 
 coverage
+**/*.d.mts
+**/*.d.cts
+
+VERSION

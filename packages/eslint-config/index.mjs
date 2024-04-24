@@ -1,1 +1,4 @@
-export { default as typescript } from "./typescript.mjs";
+export {
+  default as typescript,
+  overrides as typescriptOverrides,
+} from './typescript.mjs';

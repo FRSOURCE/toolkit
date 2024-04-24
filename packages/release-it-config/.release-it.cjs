@@ -1,8 +1,7 @@
-const { name } = require("./package.json");
-const { monorepoIndependent } = require("./index.cjs");
+const { name } = require('./package.json');
+const { monorepoIndependent } = require('./index.cjs');
 
 module.exports = monorepoIndependent({
   pkgName: name,
-  buildCmd: "", // no build needed
-  pluginsPath: ".",
+  pluginsPath: '.',
 });

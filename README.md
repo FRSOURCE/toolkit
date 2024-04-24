@@ -1,6 +1,7 @@
 # FRSOURCE Toolkit
 
-A repository that holds shared toolkit used throughout the FRSOURCE organization:
+A repository that holds a shared toolkit used throughout the FRSOURCE organization:
 
-- configuration files,
+- configuration files (e.g. prettier/eslint/etc),
+- supportive packages (e.g. globals-vitest)
 - GitHub Actions scripts.

@@ -1,1 +1,5 @@
 .release-it.cjs
+eslint.config.mjs
+prettier.config.mjs
+.prettierignore
+CHANGELOG.md

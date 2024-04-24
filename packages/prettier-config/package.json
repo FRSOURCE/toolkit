@@ -2,21 +2,25 @@
   "name": "@frsource/prettier-config",
   "version": "1.0.0",
   "main": "index.mjs",
+  "types": "index.d.mts",
   "type": "module",
   "scripts": {
-    "release": "release-it"
-  },
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "6.11.0",
-    "@typescript-eslint/parser": "6.11.0",
-    "eslint-config-prettier": "9.1.0"
+    "build": "tsc index.mjs --declaration --emitDeclarationOnly --allowJs --moduleResolution bundler --target esnext",
+    "release": "release-it",
+    "eslint": "eslint .",
+    "prettier": "prettier . --check",
+    "lint": "pnpm eslint && pnpm prettier",
+    "fix": "pnpm eslint --fix && prettier . --write"
   },
   "devDependencies": {
     "@frsource/release-it-config": "workspace:*",
-    "release-it": "^17.2.0"
+    "@frsource/eslint-config": "workspace:*",
+    "prettier": "^3.2.5",
+    "release-it": "^17.2.0",
+    "typescript": "^5.4.5"
   },
   "peerDependencies": {
-    "eslint": ">= 9"
+    "eslint": ">= 3"
   },
   "homepage": "https://github.com/FRSOURCE/toolkit/",
   "repository": {

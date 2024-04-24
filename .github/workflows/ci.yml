@@ -28,6 +28,7 @@ jobs:
           node-version-file: ".nvmrc"
           cache: 'pnpm'
       - run: pnpm install --frozen-lockfile
+      - run: pnpm lint
       - name: Authenticate with Registry
         run: |
           npm config set //registry.npmjs.org/:_authToken $NPM_TOKEN

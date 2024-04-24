@@ -2,15 +2,25 @@
   "name": "@frsource/release-it-config",
   "version": "1.2.0",
   "main": "index.cjs",
+  "types": "index.d.cts",
   "type": "module",
   "scripts": {
-    "release": "release-it"
+    "build": "tsc index.cjs --declaration --emitDeclarationOnly --allowJs --moduleResolution bundler --target esnext",
+    "release": "release-it",
+    "eslint": "eslint .",
+    "prettier": "prettier . --check",
+    "lint": "pnpm eslint && pnpm prettier",
+    "fix": "pnpm eslint --fix && prettier . --write"
   },
   "dependencies": {
     "@release-it/conventional-changelog": "^8.0.1"
   },
   "devDependencies": {
-    "release-it": "^17.2.0"
+    "@frsource/eslint-config": "workspace:*",
+    "@frsource/prettier-config": "workspace:*",
+    "globals": "^15.0.0",
+    "release-it": "^17.2.0",
+    "typescript": "^5.4.5"
   },
   "peerDependencies": {
     "release-it": ">= 17"

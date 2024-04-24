@@ -1,3 +1,5 @@
+const monorepoIndependent = require('./monorepoIndependent.cjs');
+
 module.exports = {
-  monorepoIndependent: require("./monorepoIndependent.cjs"),
+  monorepoIndependent,
 };

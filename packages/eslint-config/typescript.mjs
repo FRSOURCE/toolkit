@@ -1,47 +1,60 @@
-export default [
+import prettier from 'eslint-config-prettier';
+import js from '@eslint/js';
+import ts from 'typescript-eslint';
+import globals from 'globals';
+import { env } from 'node:process';
+
+/** @type { import("eslint").Linter.FlatConfig[] } */
+export const overrides = [
   {
-    root: true,
-    env: {
-      browser: true,
-      es2021: true,
-      node: true,
-    },
-    parserOptions: {
-      parser: "@typescript-eslint/parser",
-      ecmaVersion: "latest",
-      sourceType: "module",
-    },
-    extends: ["prettier"],
-    plugins: ["@typescript-eslint", "prettier"],
     rules: {
-      "prettier/prettier": [
-        "error",
-        {
-          tabWidth: 2,
-        },
-      ],
-      "@typescript-eslint/semi": 2,
+      '@typescript-eslint/semi': 2,
       semi: 0,
       curly: 0,
-      indent: ["off", 2, { offsetTernaryExpressions: true }],
-      "comma-dangle": "off",
-      "arrow-parens": [
-        "off",
-        "as-needed",
+      indent: ['off', 2, { offsetTernaryExpressions: true }],
+      'comma-dangle': 'off',
+      'arrow-parens': [
+        'off',
+        'as-needed',
         {
           requireForBlockBody: true,
         },
       ],
-      "space-before-function-paren": [
-        "error",
+      'space-before-function-paren': [
+        'error',
         {
-          anonymous: "always",
-          named: "never",
-          asyncArrow: "always",
+          anonymous: 'always',
+          named: 'never',
+          asyncArrow: 'always',
         },
       ],
-      "func-call-spacing": 0,
-      "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off",
+      'func-call-spacing': 0,
+      'no-debugger': env.NODE_ENV === 'production' ? 'error' : 'off',
+    },
+  },
+  {
+    files: [
+      '.*.{js,cjs,mjs,ts,mts,tsx,jsx}',
+      '*.config.{js,cjs,mjs,ts,mts,tsx,jsx}',
+    ],
+    languageOptions: {
+      globals: {
+        ...globals.node,
+      },
+    },
+  },
+  {
+    files: ['**/*.cjs'],
+    rules: {
+      '@typescript-eslint/no-var-requires': 'off',
     },
   },
 ];
+
+/** @type {import('typescript-eslint')['config']} */
+export default ts.config(
+  js.configs.recommended,
+  ...ts.configs.strict,
+  prettier,
+  ...overrides,
+);
