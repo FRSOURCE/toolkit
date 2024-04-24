@@ -7,6 +7,11 @@ import pkg from '../package.json' with { type: 'json' };
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
+const e = (msg, fail = true) => {
+  console.log(msg);
+  process.exit(fail ? 1 : 0);
+};
+
 function extract(file) {
   const program = ts.createProgram([file], {});
   const sourceFile = program.getSourceFile(file);
@@ -42,18 +47,20 @@ const {
   with: { type: 'json' },
 });
 
-if (pkg.version === vitestVersion) {
-  console.info(
+if (!vitestVersion) e('Vitest version cannot be read.');
+if (pkg.version === vitestVersion)
+  e(
     `Vitest version (${vitestVersion}) is the same as package version (${pkg.version}). Skipping.`,
+    false,
   );
-  process.exit();
-}
 
 writeFileSync(join(__dirname, '..', 'VERSION'), vitestVersion);
 
 const globalsPath = require.resolve('vitest/globals.d.ts');
 const globalsArray = extract(globalsPath);
 const globals = {};
+if (!globalsArray.length) e('No globals! Check extractor implementation.');
+
 globalsArray.forEach((globalName) => (globals[globalName] = true));
 const moduleContent = `export default /** @type {const} */ (${JSON.stringify(globals, undefined, 2)});`;
 
