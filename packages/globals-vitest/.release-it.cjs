@@ -6,6 +6,13 @@ const config = monorepoIndependent({ pkgName: name });
 delete config.plugins[
   '@frsource/release-it-config/cross-deps-version-plugin.mjs'
 ];
-config.plugins['@frsource/release-it-config/version-file-plugin.mjs'] = {};
 
-module.exports = config;
+module.exports = {
+  ...config,
+  plugins: {
+    '@frsource/release-it-config/version-file-plugin.mjs': {
+      skipReleaseIfNotPresent: true,
+    },
+    ...config.plugins,
+  },
+};

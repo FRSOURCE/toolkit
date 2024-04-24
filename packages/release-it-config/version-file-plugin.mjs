@@ -18,19 +18,41 @@ class VersionFilePlugin extends Plugin {
     super(...args);
     this.setContext({ versionFile: path.resolve('./VERSION') });
   }
-  init() {
+
+  getVersion() {
+    let isFilePresent = true;
     try {
       fs.accessSync(this.getContext('versionFile'));
     } catch {
-      throw e('Skipping release: VERSION file not present.', false);
+      isFilePresent = false;
     }
 
-    const data = fs.readFileSync(this.getContext('versionFile'));
-    const latestVersion = data.toString().trim();
-    this.setContext({ latestVersion });
+    if (isFilePresent) {
+      const data = fs.readFileSync(this.getContext('versionFile'));
+      return data.toString().trim();
+    }
   }
-  getLatestVersion() {
-    return this.getContext('latestVersion');
+
+  getIncrement({ latestVersion }) {
+    const newVersion = this.getVersion();
+    if (!newVersion && this.options.skipReleaseIfNotPresent) {
+      throw e('Skipping release: VERSION file not present.', '', false);
+    }
+    if (latestVersion === newVersion) {
+      throw e(
+        'Skipping release: version from VERSION file was already released.',
+        '',
+        false,
+      );
+    }
+
+    return newVersion || null;
+  }
+  getIncrementedVersion(...args) {
+    return this.getIncrement(...args);
+  }
+  getIncrementedVersionCI(...args) {
+    return this.getIncrement(...args);
   }
   bump(version) {
     this.setContext({ version });

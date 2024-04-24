@@ -48,7 +48,7 @@ module.exports = ({
       [`${pluginsPath}/cross-deps-version-plugin.mjs`]: {},
     },
     hooks: {
-      'before:bump': buildCmd,
+      'after:init': buildCmd,
       'before:npm:release': 'pnpm pack',
       'after:npm:release': 'rm *.tgz',
     },
