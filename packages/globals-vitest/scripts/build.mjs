@@ -3,7 +3,6 @@ import { writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import ts from 'typescript';
-import pkg from '../package.json' with { type: 'json' };
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -48,13 +47,6 @@ const {
 });
 
 if (!vitestVersion) e('Vitest version cannot be read.');
-if (pkg.version === vitestVersion)
-  e(
-    `Vitest version (${vitestVersion}) is the same as package version (${pkg.version}). Skipping.`,
-    false,
-  );
-
-writeFileSync(join(__dirname, '..', 'VERSION'), vitestVersion);
 
 const globalsPath = require.resolve('vitest/globals.d.ts');
 const globalsArray = extract(globalsPath);
