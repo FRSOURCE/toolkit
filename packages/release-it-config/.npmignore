@@ -3,3 +3,4 @@ eslint.config.mjs
 prettier.config.mjs
 .prettierignore
 CHANGELOG.md
+README.md

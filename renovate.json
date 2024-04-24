@@ -2,5 +2,11 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "local>FRSOURCE/renovate-config"
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": ["vitest"],
+      "extends": ["at any time"]
+    }
   ]
 }
