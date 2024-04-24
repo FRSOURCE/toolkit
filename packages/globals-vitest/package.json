@@ -14,10 +14,13 @@
     "fix": "pnpm eslint --fix && prettier . --write"
   },
   "devDependencies": {
+    "@frsource/release-it-config": "workspace:*",
     "@frsource/eslint-config": "workspace:*",
     "@frsource/prettier-config": "workspace:*",
     "eslint": "^9.1.0",
     "globals": "^15.0.0",
+    "prettier": "^3.2.5",
+    "release-it": "^17.2.0",
     "typescript": "^5.4.5",
     "vitest": "1.5.0"
   },
@@ -48,5 +51,6 @@
     "eslint config",
     "eslint extends",
     "vitest eslint"
-  ]
+  ],
+  "funding": "https://buymeacoffee.com/frsource"
 }
