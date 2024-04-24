@@ -47,6 +47,7 @@ const {
 });
 
 if (!vitestVersion) e('Vitest version cannot be read.');
+writeFileSync(join(__dirname, '..', 'VERSION'), vitestVersion);
 
 const globalsPath = require.resolve('vitest/globals.d.ts');
 const globalsArray = extract(globalsPath);
