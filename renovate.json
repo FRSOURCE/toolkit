@@ -6,7 +6,9 @@
   "packageRules": [
     {
       "matchPackageNames": ["vitest"],
-      "extends": ["at any time"]
+      "schedule": ["at any time"],
+      "automergeSchedule": ["at any time"],
+      "automerge": true
     }
   ]
 }
