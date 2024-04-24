@@ -8,13 +8,29 @@ on:
       - main
 
 jobs:
+  lint-and-build:
+    name: Lint and build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v3
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+          cache: 'pnpm'
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm lint
+      - run: pnpm build
+
   release:
     name: Release
     runs-on: ubuntu-latest
     permissions:
       contents: write
     concurrency:
-        group: release
+      group: release
+    needs: [lint-and-build]
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     steps:
       - uses: actions/checkout@v4
         with:
@@ -30,7 +46,6 @@ jobs:
           node-version-file: ".nvmrc"
           cache: 'pnpm'
       - run: pnpm install --frozen-lockfile
-      - run: pnpm lint
       - name: Authenticate with Registry
         run: |
           npm config set //registry.npmjs.org/:_authToken $NPM_TOKEN
@@ -38,7 +53,7 @@ jobs:
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: release package
-        if: ${{ success() &&  github.ref == 'refs/heads/main' && github.event_name == 'push' }}
+        if: ${{ success() }}
         run: pnpm release
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
