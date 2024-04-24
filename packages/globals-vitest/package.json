@@ -27,7 +27,7 @@
   "peerDependencies": {
     "vitest": "1.5.0"
   },
-  "homepage": "https://github.com/FRSOURCE/toolkit/",
+  "homepage": "https://github.com/FRSOURCE/toolkit/tree/main/packages/globals-vitest",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FRSOURCE/toolkit.git",

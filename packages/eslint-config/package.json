@@ -32,7 +32,7 @@
     "eslint": ">= 9",
     "typescript": ">= 5.0.0"
   },
-  "homepage": "https://github.com/FRSOURCE/toolkit/",
+  "homepage": "https://github.com/FRSOURCE/toolkit/tree/main/packages/eslint-config",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FRSOURCE/toolkit.git",

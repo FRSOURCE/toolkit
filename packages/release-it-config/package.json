@@ -25,7 +25,7 @@
   "peerDependencies": {
     "release-it": ">= 17"
   },
-  "homepage": "https://github.com/FRSOURCE/toolkit/",
+  "homepage": "https://github.com/FRSOURCE/toolkit/tree/main/packages/release-it-config",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FRSOURCE/toolkit.git",

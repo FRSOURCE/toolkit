@@ -22,7 +22,7 @@
   "peerDependencies": {
     "eslint": ">= 3"
   },
-  "homepage": "https://github.com/FRSOURCE/toolkit/",
+  "homepage": "https://github.com/FRSOURCE/toolkit/tree/main/packages/prettier-config",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FRSOURCE/toolkit.git",
