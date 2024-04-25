@@ -1,3 +1,7 @@
+
+
+# [1.6.0](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v1.5.1...${npm.name}-v1.6.0) (2024-04-25)
+
 # 1.5.1 (2024-04-24)
 
 # 1.1.0 (2024-04-24)
