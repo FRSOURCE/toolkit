@@ -1,5 +1,12 @@
 
 
+# [1.8.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.7.0...${npm.name}-v1.8.0) (2024-04-28)
+
+
+### Bug Fixes
+
+* version plugin ([04c9df5](https://github.com/FRSOURCE/toolkit/commit/04c9df55187b4da0f6f53b559aa54764c36baf91))
+
 # [1.7.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.6.0...${npm.name}-v1.7.0) (2024-04-24)
 
 # [1.6.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.5.0...${npm.name}-v1.6.0) (2024-04-24)
