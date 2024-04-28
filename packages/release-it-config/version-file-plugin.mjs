@@ -46,7 +46,14 @@ class VersionFilePlugin extends Plugin {
       );
     }
 
+    if (newVersion) {
+      this.config.setContext({ version: { increment: newVersion } });
+    }
+
     return newVersion || null;
+  }
+  getChangelog(latestVersion) {
+    this.getIncrement({ latestVersion });
   }
   getIncrementedVersion(...args) {
     return this.getIncrement(...args);
