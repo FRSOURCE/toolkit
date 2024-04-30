@@ -1,5 +1,12 @@
 
 
+## [1.5.3](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v1.5.2...${npm.name}-v1.5.3) (2024-04-30)
+
+
+### Bug Fixes
+
+* version plugin ([04c9df5](https://github.com/FRSOURCE/toolkit/commit/04c9df55187b4da0f6f53b559aa54764c36baf91))
+
 # [1.5.2](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v1.5.1...${npm.name}-v1.5.2) (2024-04-25)
 
 # 1.5.1 (2024-04-24)
