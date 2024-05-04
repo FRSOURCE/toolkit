@@ -7,6 +7,7 @@ import ts from 'typescript';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const e = (msg, fail = true) => {
+  // eslint-disable-next-line no-console
   console.log(msg);
   process.exit(fail ? 1 : 0);
 };
@@ -59,4 +60,5 @@ const moduleContent = `export default /** @type {const} */ (${JSON.stringify(glo
 
 writeFileSync(join(__dirname, '..', 'index.mjs'), moduleContent);
 
+// eslint-disable-next-line no-console
 console.log('Finished generation with result:\n', moduleContent);

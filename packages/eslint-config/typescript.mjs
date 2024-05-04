@@ -29,6 +29,7 @@ export const overrides = [
         },
       ],
       'func-call-spacing': 0,
+      'no-console': 'error',
       'no-debugger': env.NODE_ENV === 'production' ? 'error' : 'off',
     },
   },
