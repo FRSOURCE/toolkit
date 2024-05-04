@@ -1,5 +1,12 @@
 
 
+# [1.7.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/eslint-config-v1.6.0...${npm.name}-v1.7.0) (2024-05-04)
+
+
+### Features
+
+* add no-console rule ([aa173c0](https://github.com/FRSOURCE/toolkit/commit/aa173c0e888ee20c5081c7146b1bd9d0c612fa4a))
+
 # [1.6.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/eslint-config-v1.5.0...${npm.name}-v1.6.0) (2024-04-29)
 
 # [1.5.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/eslint-config-v1.4.0...${npm.name}-v1.5.0) (2024-04-29)
