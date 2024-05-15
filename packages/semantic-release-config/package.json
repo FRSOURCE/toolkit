@@ -1,0 +1,55 @@
+{
+  "name": "@frsource/semantic-release-config",
+  "version": "0.0.0",
+  "main": "index.cjs",
+  "types": "index.d.cts",
+  "scripts": {
+    "build": "tsc index.cjs --declaration --emitDeclarationOnly --allowJs --moduleResolution bundler --target esnext",
+    "release": "release-it",
+    "eslint": "eslint .",
+    "prettier": "prettier . --check",
+    "lint": "pnpm eslint && pnpm prettier",
+    "fix": "pnpm eslint --fix && prettier . --write"
+  },
+  "dependencies": {
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/commit-analyzer": "11.1.0",
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/github": "9.2.6",
+    "@semantic-release/npm": "11.0.3",
+    "@semantic-release/release-notes-generator": "12.1.0"
+  },
+  "devDependencies": {
+    "@frsource/eslint-config": "workspace:*",
+    "@frsource/prettier-config": "workspace:*",
+    "@frsource/release-it-config": "workspace:*",
+    "@types/node": "20.12.12",
+    "globals": "15.0.0",
+    "release-it": "17.2.0",
+    "semantic-release": "23.1.1",
+    "typescript": "5.4.5"
+  },
+  "peerDependencies": {
+    "semantic-release": ">= 23"
+  },
+  "homepage": "https://github.com/FRSOURCE/toolkit/tree/main/packages/semantic-release-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FRSOURCE/toolkit.git",
+    "directory": "packages/semantic-release-config"
+  },
+  "bugs": {
+    "url": "https://github.com/FRSOURCE/toolkit/issues"
+  },
+  "author": "Jakub Freisler <jakub@frsource.org>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "packageManager": "pnpm@9.0.6",
+  "keywords": [
+    "semantic-release",
+    "semantic-release config"
+  ],
+  "funding": "https://buymeacoffee.com/frsource"
+}
