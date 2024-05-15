@@ -1,6 +1,6 @@
 {
   "name": "@frsource/semantic-release-config",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "index.cjs",
   "types": "index.d.cts",
   "scripts": {
