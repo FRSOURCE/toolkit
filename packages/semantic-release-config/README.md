@@ -7,5 +7,5 @@ Semantic Release configuration files used across the FRSOURCE organization.
 ```js
 // release.config.js
 
-module.exports = { extends: "@frsource/semantic-config-release" }
+module.exports = { extends: '@frsource/semantic-config-release' };
 ```
