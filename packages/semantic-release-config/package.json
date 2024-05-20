@@ -25,7 +25,7 @@
     "@frsource/release-it-config": "workspace:*",
     "@types/node": "20.12.12",
     "globals": "15.2.0",
-    "release-it": "17.2.0",
+    "release-it": "17.2.1",
     "semantic-release": "23.1.1",
     "typescript": "5.4.5"
   },
