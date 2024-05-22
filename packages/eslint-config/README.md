@@ -6,8 +6,18 @@ ESLint configuration files used across the FRSOURCE organization.
 
 ## Usage
 
+### typescript
+
 ```js
 // eslint.config.mjs
 
 export { typescript as default } from '@frsource/eslint-config';
+```
+
+### javascript
+
+```js
+// eslint.config.mjs
+
+export { javascript as default } from '@frsource/eslint-config';
 ```

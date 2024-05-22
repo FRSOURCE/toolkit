@@ -1,1 +1,1 @@
-export { typescript as default } from './index.mjs';
+export { javascript as default } from './index.mjs';

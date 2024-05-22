@@ -1,1 +1,1 @@
-export { typescript as default } from '@frsource/eslint-config';
+export { javascript as default } from '@frsource/eslint-config';
