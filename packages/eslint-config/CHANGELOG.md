@@ -1,5 +1,12 @@
 
 
+# [1.11.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/eslint-config-v1.10.0...${npm.name}-v1.11.0) (2024-05-22)
+
+
+### Features
+
+* add javascript eslint rules ([8760cb5](https://github.com/FRSOURCE/toolkit/commit/8760cb50aaa52cee076f59ac80b46eab81d4bf90))
+
 # [1.10.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/eslint-config-v1.9.0...${npm.name}-v1.10.0) (2024-05-17)
 
 # [1.9.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/eslint-config-v1.8.0...${npm.name}-v1.9.0) (2024-05-15)
