@@ -1,5 +1,12 @@
 
 
+# [1.7.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.6.0...${npm.name}-v1.7.0) (2024-05-22)
+
+
+### Features
+
+* add javascript eslint rules ([8760cb5](https://github.com/FRSOURCE/toolkit/commit/8760cb50aaa52cee076f59ac80b46eab81d4bf90))
+
 # [1.6.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.5.0...${npm.name}-v1.6.0) (2024-05-20)
 
 # [1.5.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.4.0...${npm.name}-v1.5.0) (2024-05-20)
