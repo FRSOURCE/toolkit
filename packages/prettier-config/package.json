@@ -36,7 +36,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "packageManager": "pnpm@9.1.1",
+  "packageManager": "pnpm@9.1.2",
   "keywords": [
     "prettier",
     "prettier config"
