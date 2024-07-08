@@ -1,5 +1,16 @@
 
 
+## <small>2.0.1 (2024-07-08)</small>
+
+* chore(deps): update all minor dependency bump (#15) ([ee8b472](https://github.com/FRSOURCE/toolkit/commit/ee8b472)), closes [#15](https://github.com/FRSOURCE/toolkit/issues/15)
+* chore(deps): update all minor dependency bump (#26) ([63c1ab4](https://github.com/FRSOURCE/toolkit/commit/63c1ab4)), closes [#26](https://github.com/FRSOURCE/toolkit/issues/26)
+* chore(deps): update all minor dependency bump (#31) ([164b8a1](https://github.com/FRSOURCE/toolkit/commit/164b8a1)), closes [#31](https://github.com/FRSOURCE/toolkit/issues/31)
+* chore(deps): update dependency vitest to v2 (#37) ([2c617ee](https://github.com/FRSOURCE/toolkit/commit/2c617ee)), closes [#37](https://github.com/FRSOURCE/toolkit/issues/37)
+* chore(deps): update pnpm to v9.1.2 (#18) ([5cbfc0f](https://github.com/FRSOURCE/toolkit/commit/5cbfc0f)), closes [#18](https://github.com/FRSOURCE/toolkit/issues/18)
+* chore(deps): update pnpm to v9.1.4 (#22) ([6a7b215](https://github.com/FRSOURCE/toolkit/commit/6a7b215)), closes [#22](https://github.com/FRSOURCE/toolkit/issues/22)
+* fix(deps): update all minor dependency bump (#35) ([1488cad](https://github.com/FRSOURCE/toolkit/commit/1488cad)), closes [#35](https://github.com/FRSOURCE/toolkit/issues/35)
+* feat: add no-console rule ([aa173c0](https://github.com/FRSOURCE/toolkit/commit/aa173c0))
+
 # [1.6.0](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v1.5.3...${npm.name}-v1.6.0) (2024-05-03)
 
 ## [1.5.3](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v1.5.2...${npm.name}-v1.5.3) (2024-04-30)
