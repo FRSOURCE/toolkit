@@ -24,7 +24,7 @@ importers:
         version: 9.1.0(eslint@9.6.0)
       globals:
         specifier: ^15.0.0
-        version: 15.7.0
+        version: 15.8.0
       typescript-eslint:
         specifier: ^7.7.0
         version: 7.15.0(eslint@9.6.0)(typescript@5.5.3)
@@ -64,7 +64,7 @@ importers:
         version: 9.6.0
       globals:
         specifier: ^15.0.0
-        version: 15.7.0
+        version: 15.8.0
       prettier:
         specifier: ^3.2.5
         version: 3.3.2
@@ -114,7 +114,7 @@ importers:
         version: link:../prettier-config
       globals:
         specifier: ^15.0.0
-        version: 15.7.0
+        version: 15.8.0
       release-it:
         specifier: ^17.2.0
         version: 17.4.1(typescript@5.5.3)
@@ -134,8 +134,8 @@ importers:
         specifier: 10.0.1
         version: 10.0.1(semantic-release@24.0.0(typescript@5.5.3))
       '@semantic-release/github':
-        specifier: 10.0.7
-        version: 10.0.7(semantic-release@24.0.0(typescript@5.5.3))
+        specifier: 10.1.0
+        version: 10.1.0(semantic-release@24.0.0(typescript@5.5.3))
       '@semantic-release/npm':
         specifier: 12.0.1
         version: 12.0.1(semantic-release@24.0.0(typescript@5.5.3))
@@ -156,8 +156,8 @@ importers:
         specifier: 20.14.10
         version: 20.14.10
       globals:
-        specifier: 15.7.0
-        version: 15.7.0
+        specifier: 15.8.0
+        version: 15.8.0
       release-it:
         specifier: 17.4.1
         version: 17.4.1(typescript@5.5.3)
@@ -644,8 +644,8 @@ packages:
     peerDependencies:
       semantic-release: '>=18.0.0'
 
-  '@semantic-release/github@10.0.7':
-    resolution: {integrity: sha512-J7JiFvOu/8QKqFF5FDTk/k19Z/Jku4LdDof/+LsjaGgLOISJR7TL66q89c2YXV6Dh5Jw5VmiT4uK4q6SSfbQGA==}
+  '@semantic-release/github@10.1.0':
+    resolution: {integrity: sha512-g4RHBaCWJjGcEy95TeTdajlmUoP5jAaF5trGkFXHKsT/VpCwawhZbNW66+sUr0c2CIAdfpCxxmK+E7GyWBWJDw==}
     engines: {node: '>=20.8.1'}
     peerDependencies:
       semantic-release: '>=20.1.0'
@@ -1641,8 +1641,8 @@ packages:
     resolution: {integrity: sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==}
     engines: {node: '>=18'}
 
-  globals@15.7.0:
-    resolution: {integrity: sha512-ivatRXWwKC6ImcdKO7dOwXuXR5XFrdwo45qFwD7D0qOkEPzzJdLXC3BHceBdyrPOD3p1suPaWi4Y4NMm2D++AQ==}
+  globals@15.8.0:
+    resolution: {integrity: sha512-VZAJ4cewHTExBWDHR6yptdIBlx9YSSZuwojj9Nt5mBRXQzrKakDsVKQ1J63sklLvzAJm0X5+RpO4i3Y2hcOnFw==}
     engines: {node: '>=18'}
 
   globalthis@1.0.4:
@@ -3761,7 +3761,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@semantic-release/github@10.0.7(semantic-release@24.0.0(typescript@5.5.3))':
+  '@semantic-release/github@10.1.0(semantic-release@24.0.0(typescript@5.5.3))':
     dependencies:
       '@octokit/core': 6.1.2
       '@octokit/plugin-paginate-rest': 11.3.1(@octokit/core@6.1.2)
@@ -4995,7 +4995,7 @@ snapshots:
 
   globals@14.0.0: {}
 
-  globals@15.7.0: {}
+  globals@15.8.0: {}
 
   globalthis@1.0.4:
     dependencies:
@@ -6073,7 +6073,7 @@ snapshots:
     dependencies:
       '@semantic-release/commit-analyzer': 13.0.0(semantic-release@24.0.0(typescript@5.5.3))
       '@semantic-release/error': 4.0.0
-      '@semantic-release/github': 10.0.7(semantic-release@24.0.0(typescript@5.5.3))
+      '@semantic-release/github': 10.1.0(semantic-release@24.0.0(typescript@5.5.3))
       '@semantic-release/npm': 12.0.1(semantic-release@24.0.0(typescript@5.5.3))
       '@semantic-release/release-notes-generator': 14.0.1(semantic-release@24.0.0(typescript@5.5.3))
       aggregate-error: 5.0.0
@@ -6509,7 +6509,7 @@ snapshots:
   vite-node@1.6.0(@types/node@20.14.10):
     dependencies:
       cac: 6.7.14
-      debug: 4.3.4
+      debug: 4.3.5
       pathe: 1.1.2
       picocolors: 1.0.0
       vite: 5.2.10(@types/node@20.14.10)
