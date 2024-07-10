@@ -1,5 +1,9 @@
 
 
+## <small>2.0.2 (2024-07-10)</small>
+
+* chore(deps): update dependency vitest to v2.0.2 (#38) ([aeffbb2](https://github.com/FRSOURCE/toolkit/commit/aeffbb2)), closes [#38](https://github.com/FRSOURCE/toolkit/issues/38)
+
 ## <small>2.0.1 (2024-07-08)</small>
 
 * chore(deps): update all minor dependency bump (#15) ([ee8b472](https://github.com/FRSOURCE/toolkit/commit/ee8b472)), closes [#15](https://github.com/FRSOURCE/toolkit/issues/15)
