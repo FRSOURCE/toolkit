@@ -23,7 +23,7 @@
   "devDependencies": {
     "@frsource/prettier-config": "workspace:*",
     "@frsource/release-it-config": "workspace:*",
-    "@types/eslint": "^8.56.10",
+    "@types/eslint": "^9.0.0",
     "eslint": "^9.1.0",
     "release-it": "^17.2.0",
     "typescript": "^5.4.5"
