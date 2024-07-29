@@ -25,7 +25,7 @@
     "@frsource/release-it-config": "workspace:*",
     "@types/node": "20.14.11",
     "globals": "15.8.0",
-    "release-it": "17.4.1",
+    "release-it": "17.6.0",
     "semantic-release": "24.0.0",
     "typescript": "5.5.3"
   },
@@ -46,7 +46,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "packageManager": "pnpm@9.5.0",
+  "packageManager": "pnpm@9.6.0",
   "keywords": [
     "semantic-release",
     "semantic-release config"
