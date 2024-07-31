@@ -1,5 +1,10 @@
 
 
+## <small>2.0.5 (2024-07-31)</small>
+
+* chore(deps): update all minor dependency bump (#44) ([d61eda9](https://github.com/FRSOURCE/toolkit/commit/d61eda9)), closes [#44](https://github.com/FRSOURCE/toolkit/issues/44)
+* chore(deps): update dependency vitest to v2.0.5 (#51) ([272f7b9](https://github.com/FRSOURCE/toolkit/commit/272f7b9)), closes [#51](https://github.com/FRSOURCE/toolkit/issues/51)
+
 ## <small>2.0.4 (2024-07-22)</small>
 
 * chore(deps): update dependency vitest to v2.0.4 (#46) ([954462c](https://github.com/FRSOURCE/toolkit/commit/954462c)), closes [#46](https://github.com/FRSOURCE/toolkit/issues/46)
