@@ -24,7 +24,7 @@
     "@frsource/prettier-config": "workspace:*",
     "@frsource/release-it-config": "workspace:*",
     "@types/node": "20.14.14",
-    "globals": "15.8.0",
+    "globals": "15.9.0",
     "release-it": "17.6.0",
     "semantic-release": "24.0.0",
     "typescript": "5.5.4"
@@ -46,7 +46,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "packageManager": "pnpm@9.6.0",
+  "packageManager": "pnpm@9.7.0",
   "keywords": [
     "semantic-release",
     "semantic-release config"
