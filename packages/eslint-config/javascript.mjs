@@ -3,7 +3,7 @@ import js from '@eslint/js';
 import globals from 'globals';
 import { env } from 'node:process';
 
-/** @type { import("eslint").Linter.FlatConfig[] } */
+/** @type { import("eslint").Linter.Config[] } */
 export const overrides = [
   {
     rules: {
@@ -47,5 +47,5 @@ export const overrides = [
   },
 ];
 
-/** @type { import("eslint").Linter.FlatConfig[] } */
+/** @type { import("eslint").Linter.Config[] } */
 export default [js.configs.recommended, prettier, ...overrides];

@@ -4,13 +4,8 @@ import ts from 'typescript-eslint';
 import globals from 'globals';
 import { overrides as javascriptOverrides } from './javascript.mjs';
 
-/** @type { import("eslint").Linter.FlatConfig[] } */
+/** @type { import("eslint").Linter.Config[] } */
 export const overrides = [
-  {
-    rules: {
-      '@typescript-eslint/semi': 2,
-    },
-  },
   {
     files: ['.*.{ts,mts,tsx}', '*.config.{ts,mts,tsx}'],
     languageOptions: {
