@@ -1,5 +1,13 @@
 
 
+## 2.1.0 (2024-09-12)
+
+* chore(deps): update all minor dependency bump (#53) ([32219aa](https://github.com/FRSOURCE/toolkit/commit/32219aa)), closes [#53](https://github.com/FRSOURCE/toolkit/issues/53)
+* chore(deps): update all minor dependency bump (#62) ([1abb3a4](https://github.com/FRSOURCE/toolkit/commit/1abb3a4)), closes [#62](https://github.com/FRSOURCE/toolkit/issues/62)
+* chore(deps): update dependency vitest to v2.1.0 (#69) ([f069151](https://github.com/FRSOURCE/toolkit/commit/f069151)), closes [#69](https://github.com/FRSOURCE/toolkit/issues/69)
+* fix(deps): update all non-major dependency bump (#60) ([6553dc8](https://github.com/FRSOURCE/toolkit/commit/6553dc8)), closes [#60](https://github.com/FRSOURCE/toolkit/issues/60)
+* fix(deps): update linters to v8 (major) (#59) ([8ff0fab](https://github.com/FRSOURCE/toolkit/commit/8ff0fab)), closes [#59](https://github.com/FRSOURCE/toolkit/issues/59)
+
 ## <small>2.0.5 (2024-07-31)</small>
 
 * chore(deps): update all minor dependency bump (#44) ([d61eda9](https://github.com/FRSOURCE/toolkit/commit/d61eda9)), closes [#44](https://github.com/FRSOURCE/toolkit/issues/44)
