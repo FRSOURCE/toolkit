@@ -1,5 +1,21 @@
 
 
+# [1.14.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/eslint-config-v1.13.0...${npm.name}-v1.14.0) (2024-09-13)
+
+
+### Bug Fixes
+
+* **deps:** update all minor dependency bump ([#35](https://github.com/FRSOURCE/toolkit/issues/35)) ([1488cad](https://github.com/FRSOURCE/toolkit/commit/1488cadec82855f7b10d0da2d97ce087287c6024))
+* **deps:** update all non-major dependency bump ([#60](https://github.com/FRSOURCE/toolkit/issues/60)) ([6553dc8](https://github.com/FRSOURCE/toolkit/commit/6553dc86da9de87d07fb4417c54ca5ac4aeb393e))
+* **deps:** update linters ([#27](https://github.com/FRSOURCE/toolkit/issues/27)) ([54787bd](https://github.com/FRSOURCE/toolkit/commit/54787bdfa52c697f73e60f9a2951bbcd49aaa3d2))
+* **deps:** update linters ([#32](https://github.com/FRSOURCE/toolkit/issues/32)) ([10d71e7](https://github.com/FRSOURCE/toolkit/commit/10d71e7e4de8fcd381f7aa998b353b70fd3f869c))
+* **deps:** update linters ([#45](https://github.com/FRSOURCE/toolkit/issues/45)) ([a26adf7](https://github.com/FRSOURCE/toolkit/commit/a26adf72cce76b4d259d96be1a332de96c651460))
+* **deps:** update linters ([#49](https://github.com/FRSOURCE/toolkit/issues/49)) ([f72a3bb](https://github.com/FRSOURCE/toolkit/commit/f72a3bb9a4966159c256c191485de504d3bf3292))
+* **deps:** update linters ([#68](https://github.com/FRSOURCE/toolkit/issues/68)) ([273c101](https://github.com/FRSOURCE/toolkit/commit/273c101ad6411164fcb4c6ea0f966c6fa7a44da2))
+* **deps:** update linters to v7.15.0 ([#36](https://github.com/FRSOURCE/toolkit/issues/36)) ([cff8440](https://github.com/FRSOURCE/toolkit/commit/cff84405944981eb153adf26a474bb71d930433c))
+* **deps:** update linters to v7.18.0 ([#54](https://github.com/FRSOURCE/toolkit/issues/54)) ([33c6797](https://github.com/FRSOURCE/toolkit/commit/33c67978ced57c64246ac319702d2ef21056996f))
+* **deps:** update linters to v8 (major) ([#59](https://github.com/FRSOURCE/toolkit/issues/59)) ([8ff0fab](https://github.com/FRSOURCE/toolkit/commit/8ff0fab6b16036e7df4b685b93a56d6fb224b789))
+
 # [1.13.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/eslint-config-v1.12.0...${npm.name}-v1.13.0) (2024-05-27)
 
 
