@@ -21,6 +21,7 @@ const e = (message, docs, fail = true) => {
     docs ? `${message}${EOL}Documentation: ${docs}${EOL}` : message,
   );
   error.code = fail ? 1 : 0;
+  error.cause = fail ? 'ERROR' : 'INFO';
   return error;
 };
 
