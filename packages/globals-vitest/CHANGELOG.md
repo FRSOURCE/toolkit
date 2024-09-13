@@ -1,5 +1,7 @@
 
 
+## [2.1.1](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v2.1.0...${npm.name}-v2.1.1) (2024-09-13)
+
 ## 2.1.0 (2024-09-12)
 
 * chore(deps): update all minor dependency bump (#53) ([32219aa](https://github.com/FRSOURCE/toolkit/commit/32219aa)), closes [#53](https://github.com/FRSOURCE/toolkit/issues/53)
