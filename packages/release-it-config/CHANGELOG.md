@@ -1,5 +1,14 @@
 
 
+# [1.14.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.13.0...${npm.name}-v1.14.0) (2024-09-13)
+
+
+### Bug Fixes
+
+* **deps:** update all minor dependency bump ([#35](https://github.com/FRSOURCE/toolkit/issues/35)) ([1488cad](https://github.com/FRSOURCE/toolkit/commit/1488cadec82855f7b10d0da2d97ce087287c6024))
+* **deps:** update all non-major dependency bump ([#60](https://github.com/FRSOURCE/toolkit/issues/60)) ([6553dc8](https://github.com/FRSOURCE/toolkit/commit/6553dc86da9de87d07fb4417c54ca5ac4aeb393e))
+* **deps:** update linters to v8 (major) ([#59](https://github.com/FRSOURCE/toolkit/issues/59)) ([8ff0fab](https://github.com/FRSOURCE/toolkit/commit/8ff0fab6b16036e7df4b685b93a56d6fb224b789))
+
 # [1.13.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.12.0...${npm.name}-v1.13.0) (2024-05-27)
 
 # [1.12.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.11.0...${npm.name}-v1.12.0) (2024-05-22)
