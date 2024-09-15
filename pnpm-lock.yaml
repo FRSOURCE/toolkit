@@ -113,7 +113,7 @@ importers:
     dependencies:
       '@release-it/conventional-changelog':
         specifier: ^8.0.1
-        version: 8.0.1(patch_hash=5tn6lpxh7y343qhtiexxxu2q7e)(conventional-commits-filter@5.0.0)(release-it@17.6.0(typescript@5.6.2))
+        version: 8.0.2(patch_hash=5tn6lpxh7y343qhtiexxxu2q7e)(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.0.0)(release-it@17.6.0(typescript@5.6.2))
     devDependencies:
       '@frsource/eslint-config':
         specifier: workspace:*
@@ -135,22 +135,22 @@ importers:
     dependencies:
       '@semantic-release/changelog':
         specifier: 6.0.3
-        version: 6.0.3(semantic-release@24.1.0(typescript@5.6.2))
+        version: 6.0.3(semantic-release@24.1.1(typescript@5.6.2))
       '@semantic-release/commit-analyzer':
         specifier: 13.0.0
-        version: 13.0.0(semantic-release@24.1.0(typescript@5.6.2))
+        version: 13.0.0(semantic-release@24.1.1(typescript@5.6.2))
       '@semantic-release/git':
         specifier: 10.0.1
-        version: 10.0.1(semantic-release@24.1.0(typescript@5.6.2))
+        version: 10.0.1(semantic-release@24.1.1(typescript@5.6.2))
       '@semantic-release/github':
-        specifier: 10.3.3
-        version: 10.3.3(semantic-release@24.1.0(typescript@5.6.2))
+        specifier: 10.3.4
+        version: 10.3.4(semantic-release@24.1.1(typescript@5.6.2))
       '@semantic-release/npm':
         specifier: 12.0.1
-        version: 12.0.1(semantic-release@24.1.0(typescript@5.6.2))
+        version: 12.0.1(semantic-release@24.1.1(typescript@5.6.2))
       '@semantic-release/release-notes-generator':
         specifier: 14.0.1
-        version: 14.0.1(semantic-release@24.1.0(typescript@5.6.2))
+        version: 14.0.1(semantic-release@24.1.1(typescript@5.6.2))
     devDependencies:
       '@frsource/eslint-config':
         specifier: workspace:*
@@ -171,8 +171,8 @@ importers:
         specifier: 17.6.0
         version: 17.6.0(typescript@5.6.2)
       semantic-release:
-        specifier: 24.1.0
-        version: 24.1.0(typescript@5.6.2)
+        specifier: 24.1.1
+        version: 24.1.1(typescript@5.6.2)
       typescript:
         specifier: 5.6.2
         version: 5.6.2
@@ -550,9 +550,9 @@ packages:
     resolution: {integrity: sha512-UA91GwWPhFExt3IizW6bOeY/pQ0BkuNwKjk9iQW9KqxluGCrg4VenZ0/L+2Y0+ZOtme72EVvg6v0zo3AMQRCeA==}
     engines: {node: '>=12'}
 
-  '@release-it/conventional-changelog@8.0.1':
-    resolution: {integrity: sha512-pwc9jaBYDaSX5TXw6rEnPfqDkKJN2sFBhYpON1kBi9T3sA9EOBncC4ed0Bv3L1ciNb6eqEJXPfp+tQMqVlv/eg==}
-    engines: {node: '>=18'}
+  '@release-it/conventional-changelog@8.0.2':
+    resolution: {integrity: sha512-WpnWWRr7O0JeLoiejLrPEWnnwFhCscBn1wBTAXeitiz2/Ifaol0s+t8otf/HYq/OiQOri2iH8d0CnVb72tBdIQ==}
+    engines: {node: ^18.18.0 || ^20.9.0 || ^22.0.0}
     peerDependencies:
       release-it: ^17.0.0
 
@@ -665,8 +665,8 @@ packages:
     peerDependencies:
       semantic-release: '>=18.0.0'
 
-  '@semantic-release/github@10.3.3':
-    resolution: {integrity: sha512-zrEdwRZ7ZTEM2JYhF4E+ZgApIfv6iHfQBnnAP1g2LqYZtj56+qWEUo/xW36cbZRDOweejxU40PGZckx6TZzFmg==}
+  '@semantic-release/github@10.3.4':
+    resolution: {integrity: sha512-JghCkEk7e2u+iauMje8lgHH11pbtaz9yTdMn/PyfulCdBshIwpp+Mu/NR8Ml216auEUtvmBpQX5+Cth2TsVUVw==}
     engines: {node: '>=20.8.1'}
     peerDependencies:
       semantic-release: '>=20.1.0'
@@ -1731,6 +1731,14 @@ packages:
     resolution: {integrity: sha512-+K84LB1DYwMHoHSgaOY/Jfhw3ucPmSET5v98Ke/HdNSw4a0UktWzyW1mjhjpuxxTqOOsfWT/7iVshHmVZ4IpOA==}
     engines: {node: ^16.14.0 || >=18.0.0}
 
+  hosted-git-info@7.0.2:
+    resolution: {integrity: sha512-puUZAUKT5m8Zzvs72XWy3HtvVbTWljRE66cP60bxJzAqf2DgICo7lYTY2IHUmLnNpjYvw5bvmoHvPc0QO2a62w==}
+    engines: {node: ^16.14.0 || >=18.0.0}
+
+  hosted-git-info@8.0.0:
+    resolution: {integrity: sha512-4nw3vOVR+vHUOT8+U4giwe2tcGv+R3pwwRidUe67DoMBTjhrfr6rZYJVVwdkBE+Um050SG+X9tf0Jo4fOpn01w==}
+    engines: {node: ^18.17.0 || >=20.5.0}
+
   http-cache-semantics@4.1.1:
     resolution: {integrity: sha512-er295DKPVsV82j5kw1Gjt+ADA/XYHsajl82cGNQG2eyoPkvgUhX+nDIyelzhIWbbsXP39EHcI6l5tYs2FYqYXQ==}
 
@@ -2121,9 +2129,8 @@ packages:
     resolution: {integrity: sha512-9hp3Vp2/hFQUiIwKo8XCeFVnrg8Pk3TYNPIR7tJADKi5YfcF7vEaK7avFHTlSy3kOKYaJQaalfEo6YuXdceBOQ==}
     engines: {node: 14 || >=16.14}
 
-  lru-cache@6.0.0:
-    resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
-    engines: {node: '>=10'}
+  lru-cache@10.4.3:
+    resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
 
   lru-cache@7.18.3:
     resolution: {integrity: sha512-jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==}
@@ -2254,6 +2261,10 @@ packages:
 
   normalize-package-data@6.0.0:
     resolution: {integrity: sha512-UL7ELRVxYBHBgYEtZCXjxuD5vPxnmvMGq0jp/dGPKKrN7tfsBh2IY7TlJ15WWwdjRWD3RJbnsygUurTK3xkPkg==}
+    engines: {node: ^16.14.0 || >=18.0.0}
+
+  normalize-package-data@6.0.2:
+    resolution: {integrity: sha512-V6gygoYb/5EmNI+MEGrWkC+e6+Rr7mTmfHrxDbLzxQogBkgzo76rkok0Am6thgSF7Mv2nLOajAJj5vDJZEFn7g==}
     engines: {node: ^16.14.0 || >=18.0.0}
 
   normalize-url@8.0.1:
@@ -2711,8 +2722,8 @@ packages:
   safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
 
-  semantic-release@24.1.0:
-    resolution: {integrity: sha512-FwaE2hKDHQn9G6GA7xmqsc9WnsjaFD/ppLM5PUg56Do9oKSCf+vH6cPeb3hEBV/m06n8Sh9vbVqPjHu/1onzQw==}
+  semantic-release@24.1.1:
+    resolution: {integrity: sha512-4Ax2GxD411jUe9IdhOjMLuN+6wAj+aKjvOGngByrpD/iKL+UKN/2puQglhyI4gxNyy9XzEBMzBwbqpnEwbXGEg==}
     engines: {node: '>=20.8.1'}
     hasBin: true
 
@@ -2723,11 +2734,6 @@ packages:
   semver-regex@4.0.5:
     resolution: {integrity: sha512-hunMQrEy1T6Jr2uEVjrAIqjwWcQTgOAcIM52C8MY1EZSD3DDNft04XzvYKPqjED65bNVVko0YI38nYeEHCX3yw==}
     engines: {node: '>=12'}
-
-  semver@7.6.0:
-    resolution: {integrity: sha512-EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==}
-    engines: {node: '>=10'}
-    hasBin: true
 
   semver@7.6.2:
     resolution: {integrity: sha512-FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w==}
@@ -3225,9 +3231,6 @@ packages:
     resolution: {integrity: sha512-0pfFzegeDWJHJIAmTLRP2DwHjdF5s7jo9tuztdQxAhINCdvS+3nGINqPd00AphqJR/0LhANUS6/+7SCb98YOfA==}
     engines: {node: '>=10'}
 
-  yallist@4.0.0:
-    resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
-
   yargs-parser@20.2.9:
     resolution: {integrity: sha512-y11nGElTIV+CT3Zv9t7VKl+Q3hTQoT9a1Qzezhhl6Rp21gJ/IVTW7Z3y9EWXhuUBC2Shnf+DX0antecpAwSP8w==}
     engines: {node: '>=10'}
@@ -3591,15 +3594,17 @@ snapshots:
       '@pnpm/network.ca-file': 1.0.2
       config-chain: 1.1.13
 
-  '@release-it/conventional-changelog@8.0.1(patch_hash=5tn6lpxh7y343qhtiexxxu2q7e)(conventional-commits-filter@5.0.0)(release-it@17.6.0(typescript@5.6.2))':
+  '@release-it/conventional-changelog@8.0.2(patch_hash=5tn6lpxh7y343qhtiexxxu2q7e)(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.0.0)(release-it@17.6.0(typescript@5.6.2))':
     dependencies:
       concat-stream: 2.0.0
       conventional-changelog: 6.0.0(conventional-commits-filter@5.0.0)
       conventional-recommended-bump: 10.0.0
+      git-semver-tags: 8.0.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.0.0)
       release-it: 17.6.0(typescript@5.6.2)
-      semver: 7.6.0
+      semver: 7.6.3
     transitivePeerDependencies:
       - conventional-commits-filter
+      - conventional-commits-parser
 
   '@rollup/rollup-android-arm-eabi@4.16.4':
     optional: true
@@ -3651,15 +3656,15 @@ snapshots:
 
   '@sec-ant/readable-stream@0.4.1': {}
 
-  '@semantic-release/changelog@6.0.3(semantic-release@24.1.0(typescript@5.6.2))':
+  '@semantic-release/changelog@6.0.3(semantic-release@24.1.1(typescript@5.6.2))':
     dependencies:
       '@semantic-release/error': 3.0.0
       aggregate-error: 3.1.0
       fs-extra: 11.2.0
       lodash: 4.17.21
-      semantic-release: 24.1.0(typescript@5.6.2)
+      semantic-release: 24.1.1(typescript@5.6.2)
 
-  '@semantic-release/commit-analyzer@13.0.0(semantic-release@24.1.0(typescript@5.6.2))':
+  '@semantic-release/commit-analyzer@13.0.0(semantic-release@24.1.1(typescript@5.6.2))':
     dependencies:
       conventional-changelog-angular: 8.0.0
       conventional-changelog-writer: 8.0.0
@@ -3669,7 +3674,7 @@ snapshots:
       import-from-esm: 1.3.4
       lodash-es: 4.17.21
       micromatch: 4.0.7
-      semantic-release: 24.1.0(typescript@5.6.2)
+      semantic-release: 24.1.1(typescript@5.6.2)
     transitivePeerDependencies:
       - supports-color
 
@@ -3677,7 +3682,7 @@ snapshots:
 
   '@semantic-release/error@4.0.0': {}
 
-  '@semantic-release/git@10.0.1(semantic-release@24.1.0(typescript@5.6.2))':
+  '@semantic-release/git@10.0.1(semantic-release@24.1.1(typescript@5.6.2))':
     dependencies:
       '@semantic-release/error': 3.0.0
       aggregate-error: 3.1.0
@@ -3687,11 +3692,11 @@ snapshots:
       lodash: 4.17.21
       micromatch: 4.0.5
       p-reduce: 2.1.0
-      semantic-release: 24.1.0(typescript@5.6.2)
+      semantic-release: 24.1.1(typescript@5.6.2)
     transitivePeerDependencies:
       - supports-color
 
-  '@semantic-release/github@10.3.3(semantic-release@24.1.0(typescript@5.6.2))':
+  '@semantic-release/github@10.3.4(semantic-release@24.1.1(typescript@5.6.2))':
     dependencies:
       '@octokit/core': 6.1.2
       '@octokit/plugin-paginate-rest': 11.3.1(@octokit/core@6.1.2)
@@ -3708,12 +3713,12 @@ snapshots:
       lodash-es: 4.17.21
       mime: 4.0.3
       p-filter: 4.1.0
-      semantic-release: 24.1.0(typescript@5.6.2)
+      semantic-release: 24.1.1(typescript@5.6.2)
       url-join: 5.0.0
     transitivePeerDependencies:
       - supports-color
 
-  '@semantic-release/npm@12.0.1(semantic-release@24.1.0(typescript@5.6.2))':
+  '@semantic-release/npm@12.0.1(semantic-release@24.1.1(typescript@5.6.2))':
     dependencies:
       '@semantic-release/error': 4.0.0
       aggregate-error: 5.0.0
@@ -3726,11 +3731,11 @@ snapshots:
       rc: 1.2.8
       read-pkg: 9.0.1
       registry-auth-token: 5.0.2
-      semantic-release: 24.1.0(typescript@5.6.2)
+      semantic-release: 24.1.1(typescript@5.6.2)
       semver: 7.6.2
       tempy: 3.1.0
 
-  '@semantic-release/release-notes-generator@14.0.1(semantic-release@24.1.0(typescript@5.6.2))':
+  '@semantic-release/release-notes-generator@14.0.1(semantic-release@24.1.1(typescript@5.6.2))':
     dependencies:
       conventional-changelog-angular: 8.0.0
       conventional-changelog-writer: 8.0.0
@@ -3742,7 +3747,7 @@ snapshots:
       into-stream: 7.0.0
       lodash-es: 4.17.21
       read-package-up: 11.0.0
-      semantic-release: 24.1.0(typescript@5.6.2)
+      semantic-release: 24.1.1(typescript@5.6.2)
     transitivePeerDependencies:
       - supports-color
 
@@ -4219,8 +4224,8 @@ snapshots:
       conventional-commits-parser: 6.0.0
       git-raw-commits: 5.0.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.0.0)
       git-semver-tags: 8.0.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.0.0)
-      hosted-git-info: 7.0.1
-      normalize-package-data: 6.0.0
+      hosted-git-info: 7.0.2
+      normalize-package-data: 6.0.2
       read-package-up: 11.0.0
       read-pkg: 9.0.1
     transitivePeerDependencies:
@@ -4246,7 +4251,7 @@ snapshots:
       conventional-commits-filter: 5.0.0
       handlebars: 4.7.8
       meow: 13.2.0
-      semver: 7.6.2
+      semver: 7.6.3
 
   conventional-changelog@6.0.0(conventional-commits-filter@5.0.0):
     dependencies:
@@ -4992,6 +4997,14 @@ snapshots:
     dependencies:
       lru-cache: 10.2.2
 
+  hosted-git-info@7.0.2:
+    dependencies:
+      lru-cache: 10.4.3
+
+  hosted-git-info@8.0.0:
+    dependencies:
+      lru-cache: 10.2.2
+
   http-cache-semantics@4.1.1: {}
 
   http-proxy-agent@7.0.2:
@@ -5332,9 +5345,7 @@ snapshots:
 
   lru-cache@10.2.2: {}
 
-  lru-cache@6.0.0:
-    dependencies:
-      yallist: 4.0.0
+  lru-cache@10.4.3: {}
 
   lru-cache@7.18.3: {}
 
@@ -5443,6 +5454,12 @@ snapshots:
     dependencies:
       hosted-git-info: 7.0.1
       is-core-module: 2.13.1
+      semver: 7.6.2
+      validate-npm-package-license: 3.0.4
+
+  normalize-package-data@6.0.2:
+    dependencies:
+      hosted-git-info: 7.0.2
       semver: 7.6.3
       validate-npm-package-license: 3.0.4
 
@@ -5889,16 +5906,16 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  semantic-release@24.1.0(typescript@5.6.2):
+  semantic-release@24.1.1(typescript@5.6.2):
     dependencies:
-      '@semantic-release/commit-analyzer': 13.0.0(semantic-release@24.1.0(typescript@5.6.2))
+      '@semantic-release/commit-analyzer': 13.0.0(semantic-release@24.1.1(typescript@5.6.2))
       '@semantic-release/error': 4.0.0
-      '@semantic-release/github': 10.3.3(semantic-release@24.1.0(typescript@5.6.2))
-      '@semantic-release/npm': 12.0.1(semantic-release@24.1.0(typescript@5.6.2))
-      '@semantic-release/release-notes-generator': 14.0.1(semantic-release@24.1.0(typescript@5.6.2))
+      '@semantic-release/github': 10.3.4(semantic-release@24.1.1(typescript@5.6.2))
+      '@semantic-release/npm': 12.0.1(semantic-release@24.1.1(typescript@5.6.2))
+      '@semantic-release/release-notes-generator': 14.0.1(semantic-release@24.1.1(typescript@5.6.2))
       aggregate-error: 5.0.0
       cosmiconfig: 9.0.0(typescript@5.6.2)
-      debug: 4.3.6
+      debug: 4.3.7
       env-ci: 11.0.0
       execa: 9.1.0
       figures: 6.1.0
@@ -5906,7 +5923,7 @@ snapshots:
       get-stream: 6.0.1
       git-log-parser: 1.2.0
       hook-std: 3.0.0
-      hosted-git-info: 7.0.1
+      hosted-git-info: 8.0.0
       import-from-esm: 1.3.4
       lodash-es: 4.17.21
       marked: 12.0.2
@@ -5929,10 +5946,6 @@ snapshots:
       semver: 7.6.3
 
   semver-regex@4.0.5: {}
-
-  semver@7.6.0:
-    dependencies:
-      lru-cache: 6.0.0
 
   semver@7.6.2: {}
 
@@ -6447,8 +6460,6 @@ snapshots:
   xtend@4.0.2: {}
 
   y18n@5.0.8: {}
-
-  yallist@4.0.0: {}
 
   yargs-parser@20.2.9: {}
 
