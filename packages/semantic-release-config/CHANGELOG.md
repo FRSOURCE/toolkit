@@ -1,5 +1,12 @@
 
 
+# [1.12.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.11.0...${npm.name}-v1.12.0) (2024-09-16)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependency bump ([#71](https://github.com/FRSOURCE/toolkit/issues/71)) ([9ca6559](https://github.com/FRSOURCE/toolkit/commit/9ca655998659dd74a4b70dd4f97ef233130a17ef))
+
 # [1.11.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.10.0...${npm.name}-v1.11.0) (2024-09-13)
 
 
