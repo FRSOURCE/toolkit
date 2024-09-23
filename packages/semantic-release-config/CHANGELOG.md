@@ -1,5 +1,12 @@
 
 
+# [1.13.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.12.0...${npm.name}-v1.13.0) (2024-09-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @semantic-release/github to v10.3.5 ([#73](https://github.com/FRSOURCE/toolkit/issues/73)) ([d5e298d](https://github.com/FRSOURCE/toolkit/commit/d5e298d0c592009573985f4be7b98ebdb6cb1c8d))
+
 # [1.12.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.11.0...${npm.name}-v1.12.0) (2024-09-16)
 
 
