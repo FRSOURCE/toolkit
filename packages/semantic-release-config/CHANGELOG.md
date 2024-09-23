@@ -1,5 +1,7 @@
 
 
+# [1.14.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.13.0...${npm.name}-v1.14.0) (2024-09-23)
+
 # [1.13.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.12.0...${npm.name}-v1.13.0) (2024-09-23)
 
 
