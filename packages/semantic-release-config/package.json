@@ -46,7 +46,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "packageManager": "pnpm@9.10.0",
+  "packageManager": "pnpm@9.11.0",
   "keywords": [
     "semantic-release",
     "semantic-release config"
