@@ -1,5 +1,7 @@
 
 
+# [1.13.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/prettier-config-v1.12.0...${npm.name}-v1.13.0) (2024-10-06)
+
 # [1.12.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/prettier-config-v1.11.0...${npm.name}-v1.12.0) (2024-09-23)
 
 # [1.11.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/prettier-config-v1.10.0...${npm.name}-v1.11.0) (2024-09-13)
