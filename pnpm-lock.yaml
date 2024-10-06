@@ -8,11 +8,6 @@ overrides:
   '@release-it/conventional-changelog>conventional-recommended-bump': ^10.0.0
   '@release-it/conventional-changelog>conventional-changelog': ^6.0.0
 
-patchedDependencies:
-  '@release-it/conventional-changelog':
-    hash: 5tn6lpxh7y343qhtiexxxu2q7e
-    path: patches/@release-it__conventional-changelog.patch
-
 importers:
 
   .: {}
@@ -112,8 +107,8 @@ importers:
   packages/release-it-config:
     dependencies:
       '@release-it/conventional-changelog':
-        specifier: ^8.0.1
-        version: 8.0.2(patch_hash=5tn6lpxh7y343qhtiexxxu2q7e)(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.0.0)(release-it@17.6.0(typescript@5.6.2))
+        specifier: https://pkg.pr.new/@release-it/conventional-changelog@100.tgz
+        version: https://pkg.pr.new/@release-it/conventional-changelog@100.tgz(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.0.0)(release-it@17.6.0(typescript@5.6.2))
     devDependencies:
       '@frsource/eslint-config':
         specifier: workspace:*
@@ -554,8 +549,9 @@ packages:
     resolution: {integrity: sha512-UA91GwWPhFExt3IizW6bOeY/pQ0BkuNwKjk9iQW9KqxluGCrg4VenZ0/L+2Y0+ZOtme72EVvg6v0zo3AMQRCeA==}
     engines: {node: '>=12'}
 
-  '@release-it/conventional-changelog@8.0.2':
-    resolution: {integrity: sha512-WpnWWRr7O0JeLoiejLrPEWnnwFhCscBn1wBTAXeitiz2/Ifaol0s+t8otf/HYq/OiQOri2iH8d0CnVb72tBdIQ==}
+  '@release-it/conventional-changelog@https://pkg.pr.new/@release-it/conventional-changelog@100.tgz':
+    resolution: {tarball: https://pkg.pr.new/@release-it/conventional-changelog@100.tgz}
+    version: 8.0.2
     engines: {node: ^18.18.0 || ^20.9.0 || ^22.0.0}
     peerDependencies:
       release-it: ^17.0.0
@@ -3592,7 +3588,7 @@ snapshots:
       '@pnpm/network.ca-file': 1.0.2
       config-chain: 1.1.13
 
-  '@release-it/conventional-changelog@8.0.2(patch_hash=5tn6lpxh7y343qhtiexxxu2q7e)(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.0.0)(release-it@17.6.0(typescript@5.6.2))':
+  '@release-it/conventional-changelog@https://pkg.pr.new/@release-it/conventional-changelog@100.tgz(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.0.0)(release-it@17.6.0(typescript@5.6.2))':
     dependencies:
       concat-stream: 2.0.0
       conventional-changelog: 6.0.0(conventional-commits-filter@5.0.0)
