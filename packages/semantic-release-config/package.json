@@ -30,7 +30,7 @@
     "typescript": "5.6.2"
   },
   "peerDependencies": {
-    "semantic-release": ">= 23"
+    "semantic-release": ">= 24"
   },
   "homepage": "https://github.com/FRSOURCE/toolkit/tree/main/packages/semantic-release-config",
   "repository": {
