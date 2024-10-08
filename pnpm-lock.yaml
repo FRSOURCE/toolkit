@@ -107,8 +107,8 @@ importers:
   packages/release-it-config:
     dependencies:
       '@release-it/conventional-changelog':
-        specifier: https://pkg.pr.new/@release-it/conventional-changelog@100.tgz
-        version: https://pkg.pr.new/@release-it/conventional-changelog@100.tgz(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.0.0)(release-it@17.7.0(typescript@5.6.2))
+        specifier: 9.0.0-next.0
+        version: 9.0.0-next.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.0.0)(release-it@17.7.0(typescript@5.6.2))
     devDependencies:
       '@frsource/eslint-config':
         specifier: workspace:*
@@ -138,8 +138,8 @@ importers:
         specifier: 10.0.1
         version: 10.0.1(semantic-release@24.1.2(typescript@5.6.2))
       '@semantic-release/github':
-        specifier: 10.3.5
-        version: 10.3.5(semantic-release@24.1.2(typescript@5.6.2))
+        specifier: 11.0.0
+        version: 11.0.0(semantic-release@24.1.2(typescript@5.6.2))
       '@semantic-release/npm':
         specifier: 12.0.1
         version: 12.0.1(semantic-release@24.1.2(typescript@5.6.2))
@@ -560,9 +560,8 @@ packages:
     resolution: {integrity: sha512-UA91GwWPhFExt3IizW6bOeY/pQ0BkuNwKjk9iQW9KqxluGCrg4VenZ0/L+2Y0+ZOtme72EVvg6v0zo3AMQRCeA==}
     engines: {node: '>=12'}
 
-  '@release-it/conventional-changelog@https://pkg.pr.new/@release-it/conventional-changelog@100.tgz':
-    resolution: {tarball: https://pkg.pr.new/@release-it/conventional-changelog@100.tgz}
-    version: 8.0.2
+  '@release-it/conventional-changelog@9.0.0-next.0':
+    resolution: {integrity: sha512-P2dN8U6oqWOyEttbB40HcMfgSBUD5LXWY/TSAbhTzuVYolojKEG1FMJIOHu00/Ji+HO7t4XaYa/yQDLJawwI2A==}
     engines: {node: ^18.18.0 || ^20.9.0 || ^22.0.0}
     peerDependencies:
       release-it: ^17.0.0
@@ -675,12 +674,6 @@ packages:
     engines: {node: '>=14.17'}
     peerDependencies:
       semantic-release: '>=18.0.0'
-
-  '@semantic-release/github@10.3.5':
-    resolution: {integrity: sha512-svvRglGmvqvxjmDgkXhrjf0lC88oZowFhOfifTldbgX9Dzj0inEtMLaC+3/MkDEmxmaQjWmF5Q/0CMIvPNSVdQ==}
-    engines: {node: '>=20.8.1'}
-    peerDependencies:
-      semantic-release: '>=20.1.0'
 
   '@semantic-release/github@11.0.0':
     resolution: {integrity: sha512-Uon6G6gJD8U1JNvPm7X0j46yxNRJ8Ui6SgK4Zw5Ktu8RgjEft3BGn+l/RX1TTzhhO3/uUcKuqM+/9/ETFxWS/Q==}
@@ -3528,7 +3521,7 @@ snapshots:
       '@pnpm/network.ca-file': 1.0.2
       config-chain: 1.1.13
 
-  '@release-it/conventional-changelog@https://pkg.pr.new/@release-it/conventional-changelog@100.tgz(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.0.0)(release-it@17.7.0(typescript@5.6.2))':
+  '@release-it/conventional-changelog@9.0.0-next.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.0.0)(release-it@17.7.0(typescript@5.6.2))':
     dependencies:
       concat-stream: 2.0.0
       conventional-changelog: 6.0.0(conventional-commits-filter@5.0.0)
@@ -3627,28 +3620,6 @@ snapshots:
       micromatch: 4.0.5
       p-reduce: 2.1.0
       semantic-release: 24.1.2(typescript@5.6.2)
-    transitivePeerDependencies:
-      - supports-color
-
-  '@semantic-release/github@10.3.5(semantic-release@24.1.2(typescript@5.6.2))':
-    dependencies:
-      '@octokit/core': 6.1.2
-      '@octokit/plugin-paginate-rest': 11.3.1(@octokit/core@6.1.2)
-      '@octokit/plugin-retry': 7.1.1(@octokit/core@6.1.2)
-      '@octokit/plugin-throttling': 9.3.0(@octokit/core@6.1.2)
-      '@semantic-release/error': 4.0.0
-      aggregate-error: 5.0.0
-      debug: 4.3.7
-      dir-glob: 3.0.1
-      globby: 14.0.2
-      http-proxy-agent: 7.0.2
-      https-proxy-agent: 7.0.5
-      issue-parser: 7.0.1
-      lodash-es: 4.17.21
-      mime: 4.0.3
-      p-filter: 4.1.0
-      semantic-release: 24.1.2(typescript@5.6.2)
-      url-join: 5.0.0
     transitivePeerDependencies:
       - supports-color
 
@@ -5334,7 +5305,7 @@ snapshots:
     dependencies:
       hosted-git-info: 7.0.2
       is-core-module: 2.13.1
-      semver: 7.6.2
+      semver: 7.6.3
       validate-npm-package-license: 3.0.4
 
   normalize-package-data@6.0.2:
@@ -5491,7 +5462,7 @@ snapshots:
       ky: 1.7.2
       registry-auth-token: 5.0.2
       registry-url: 6.0.1
-      semver: 7.6.2
+      semver: 7.6.3
 
   parent-module@1.0.1:
     dependencies:
@@ -6178,7 +6149,7 @@ snapshots:
       is-npm: 6.0.0
       latest-version: 9.0.0
       pupa: 3.1.0
-      semver: 7.6.2
+      semver: 7.6.3
       semver-diff: 4.0.0
       xdg-basedir: 5.1.0
 

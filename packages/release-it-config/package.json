@@ -13,7 +13,7 @@
     "fix": "pnpm eslint --fix && prettier . --write"
   },
   "dependencies": {
-    "@release-it/conventional-changelog": "https://pkg.pr.new/@release-it/conventional-changelog@100.tgz"
+    "@release-it/conventional-changelog": "9.0.0-next.0"
   },
   "devDependencies": {
     "@frsource/eslint-config": "workspace:*",
