@@ -1,5 +1,12 @@
 
 
+## [2.1.2](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v2.1.1...${npm.name}-v2.1.2) (2024-10-02)
+
+
+### Bug Fixes
+
+* **deps:** update all minor dependency bump ([#67](https://github.com/FRSOURCE/toolkit/issues/67)) ([5fdf835](https://github.com/FRSOURCE/toolkit/commit/5fdf83530f3f29d81e40282454422a9e214bf889))
+
 ## [2.1.1](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v2.1.0...${npm.name}-v2.1.1) (2024-09-13)
 
 ## 2.1.0 (2024-09-12)

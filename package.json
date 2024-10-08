@@ -2,7 +2,7 @@
   "name": "@frsource/frschool-root",
   "private": true,
   "author": "FRSOURCE",
-  "packageManager": "pnpm@9.11.0",
+  "packageManager": "pnpm@9.12.0",
   "engines": {
     "node": ">=18.x.x",
     "npm": ">=8.x.x",
@@ -15,9 +15,6 @@
     "fix": "pnpm run -r --parallel fix"
   },
   "pnpm": {
-    "patchedDependencies": {
-      "@release-it/conventional-changelog": "patches/@release-it__conventional-changelog.patch"
-    },
     "overrides": {
       "@release-it/conventional-changelog>conventional-recommended-bump": "^10.0.0",
       "@release-it/conventional-changelog>conventional-changelog": "^6.0.0"

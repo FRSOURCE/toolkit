@@ -1,6 +1,6 @@
 {
   "name": "@frsource/semantic-release-config",
-  "version": "1.15.0",
+  "version": "1.17.0",
   "main": "index.mjs",
   "types": "index.d.mts",
   "scripts": {
@@ -24,8 +24,8 @@
     "@frsource/prettier-config": "workspace:*",
     "@frsource/release-it-config": "workspace:*",
     "@types/node": "20.16.10",
-    "globals": "15.9.0",
-    "release-it": "17.6.0",
+    "globals": "15.10.0",
+    "release-it": "17.7.0",
     "semantic-release": "24.1.2",
     "typescript": "5.6.2"
   },
@@ -46,7 +46,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "packageManager": "pnpm@9.11.0",
+  "packageManager": "pnpm@9.12.0",
   "keywords": [
     "semantic-release",
     "semantic-release config"
