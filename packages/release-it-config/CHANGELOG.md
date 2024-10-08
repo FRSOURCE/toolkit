@@ -1,5 +1,12 @@
 
 
+# [1.19.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.18.0...${npm.name}-v1.19.0) (2024-10-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @semantic-release/github to v11 ([#79](https://github.com/FRSOURCE/toolkit/issues/79)) ([c8aee8d](https://github.com/FRSOURCE/toolkit/commit/c8aee8d6e0983357045ba71e3c211f4f4d86e182))
+
 # [1.18.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.16.0...${npm.name}-v1.18.0) (2024-10-06)
 
 # [1.17.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.16.0...${npm.name}-v1.17.0) (2024-10-06)
