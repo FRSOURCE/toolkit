@@ -27,7 +27,7 @@
     "globals": "15.10.0",
     "release-it": "17.7.0",
     "semantic-release": "24.1.2",
-    "typescript": "5.6.2"
+    "typescript": "5.6.3"
   },
   "peerDependencies": {
     "semantic-release": ">= 24"
@@ -46,7 +46,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "packageManager": "pnpm@9.12.0",
+  "packageManager": "pnpm@9.12.1",
   "keywords": [
     "semantic-release",
     "semantic-release config"
