@@ -2,7 +2,7 @@
   "name": "@frsource/frschool-root",
   "private": true,
   "author": "FRSOURCE",
-  "packageManager": "pnpm@9.12.1",
+  "packageManager": "pnpm@9.12.2",
   "engines": {
     "node": ">=18.x.x",
     "npm": ">=8.x.x",
