@@ -13,7 +13,7 @@
     "fix": "pnpm eslint --fix && prettier . --write"
   },
   "dependencies": {
-    "@release-it/conventional-changelog": "9.0.0"
+    "@release-it/conventional-changelog": "9.0.1"
   },
   "devDependencies": {
     "@frsource/eslint-config": "workspace:*",
@@ -39,7 +39,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "packageManager": "pnpm@9.12.2",
+  "packageManager": "pnpm@9.12.3",
   "keywords": [
     "release-it",
     "release-it config"
