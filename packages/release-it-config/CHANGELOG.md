@@ -1,5 +1,12 @@
 
 
+# [1.24.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.23.0...${npm.name}-v1.24.0) (2024-11-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @release-it/conventional-changelog to v9.0.3 ([#98](https://github.com/FRSOURCE/toolkit/issues/98)) ([56ed78f](https://github.com/FRSOURCE/toolkit/commit/56ed78fa51b419f2bdd32e33d66521debb0ac864))
+
 # [1.23.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.22.0...${npm.name}-v1.23.0) (2024-11-04)
 
 
