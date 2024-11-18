@@ -1,5 +1,12 @@
 
 
+# [1.24.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/eslint-config-v1.23.0...${npm.name}-v1.24.0) (2024-11-18)
+
+
+### Bug Fixes
+
+* **deps:** update linters ([#99](https://github.com/FRSOURCE/toolkit/issues/99)) ([8e9a2ea](https://github.com/FRSOURCE/toolkit/commit/8e9a2ea40544a84bc957a2feea52f2449ea9326c))
+
 # [1.23.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/eslint-config-v1.22.0...${npm.name}-v1.23.0) (2024-11-11)
 
 
