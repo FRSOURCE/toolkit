@@ -1,5 +1,7 @@
 
 
+# [1.25.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/eslint-config-v1.24.0...${npm.name}-v1.25.0) (2024-11-20)
+
 # [1.24.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/eslint-config-v1.23.0...${npm.name}-v1.24.0) (2024-11-18)
 
 
