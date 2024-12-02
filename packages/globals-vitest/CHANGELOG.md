@@ -1,5 +1,7 @@
 
 
+## [2.1.8](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v2.1.6...${npm.name}-v2.1.8) (2024-12-02)
+
 ## [2.1.6](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v2.1.5...${npm.name}-v2.1.6) (2024-11-26)
 
 ## [2.1.5](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v2.1.4...${npm.name}-v2.1.5) (2024-11-13)
