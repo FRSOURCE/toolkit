@@ -1,5 +1,12 @@
 
 
+# [1.33.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.32.0...${npm.name}-v1.33.0) (2024-12-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @semantic-release/release-notes-generator to v14.0.2 ([#112](https://github.com/FRSOURCE/toolkit/issues/112)) ([2a07a1b](https://github.com/FRSOURCE/toolkit/commit/2a07a1b8e4458fd5faf637c14de180c4bafb0b08))
+
 # [1.32.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.31.0...${npm.name}-v1.32.0) (2024-12-16)
 
 # [1.31.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.30.0...${npm.name}-v1.31.0) (2024-12-02)
