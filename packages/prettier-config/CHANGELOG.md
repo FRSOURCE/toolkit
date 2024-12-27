@@ -1,5 +1,12 @@
 
 
+# [1.19.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/prettier-config-v1.18.0...${npm.name}-v1.19.0) (2024-12-27)
+
+
+### Bug Fixes
+
+* **deps:** update all minor dependency bump ([#104](https://github.com/FRSOURCE/toolkit/issues/104)) ([c5f99a2](https://github.com/FRSOURCE/toolkit/commit/c5f99a291f15cd1822eefa6f6f3db23210a9b238))
+
 # [1.18.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/prettier-config-v1.17.0...${npm.name}-v1.18.0) (2024-12-02)
 
 # [1.17.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/prettier-config-v1.16.0...${npm.name}-v1.17.0) (2024-11-20)
