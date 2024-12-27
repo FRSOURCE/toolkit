@@ -17,10 +17,11 @@ export const overrides = [
   ...javascriptOverrides,
 ];
 
-/** @type {import('typescript-eslint')['config']} */
-export default ts.config(
+/** @type {ReturnType<import('typescript-eslint')['config']>} */
+const rules = ts.config(
   js.configs.recommended,
   ...ts.configs.strict,
   prettier,
   ...overrides,
 );
+export default rules;
