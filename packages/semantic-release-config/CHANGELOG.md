@@ -1,5 +1,12 @@
 
 
+# [1.34.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.33.0...${npm.name}-v1.34.0) (2024-12-27)
+
+
+### Bug Fixes
+
+* **deps:** update all minor dependency bump ([#104](https://github.com/FRSOURCE/toolkit/issues/104)) ([c5f99a2](https://github.com/FRSOURCE/toolkit/commit/c5f99a291f15cd1822eefa6f6f3db23210a9b238))
+
 # [1.33.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.32.0...${npm.name}-v1.33.0) (2024-12-23)
 
 
