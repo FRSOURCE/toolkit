@@ -1,5 +1,12 @@
 
 
+# [1.27.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.26.0...${npm.name}-v1.27.0) (2024-12-27)
+
+
+### Bug Fixes
+
+* **deps:** update all minor dependency bump ([#104](https://github.com/FRSOURCE/toolkit/issues/104)) ([c5f99a2](https://github.com/FRSOURCE/toolkit/commit/c5f99a291f15cd1822eefa6f6f3db23210a9b238))
+
 # [1.26.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.25.0...${npm.name}-v1.26.0) (2024-12-02)
 
 # [1.25.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.24.0...${npm.name}-v1.25.0) (2024-11-20)
