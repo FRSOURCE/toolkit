@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.29.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.28.0...${npm.name}-v1.29.0) (2025-01-06)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependency bump ([#117](https://github.com/FRSOURCE/toolkit/issues/117)) ([90449ef](https://github.com/FRSOURCE/toolkit/commit/90449efa15a8d9e8a4d76bc50e586e51a5b38f0a))
+
 # [1.28.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.27.0...${npm.name}-v1.28.0) (2024-12-30)
 
 
