@@ -1,4 +1,13 @@
+# Changelog
 
+## [3.0.1](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v2.1.8...${npm.name}-v3.0.1) (2025-01-17)
+
+
+### Bug Fixes
+
+* **deps:** update all minor dependency bump ([#104](https://github.com/FRSOURCE/toolkit/issues/104)) ([c5f99a2](https://github.com/FRSOURCE/toolkit/commit/c5f99a291f15cd1822eefa6f6f3db23210a9b238))
+* **deps:** update all non-major dependency bump ([#114](https://github.com/FRSOURCE/toolkit/issues/114)) ([d6e32b2](https://github.com/FRSOURCE/toolkit/commit/d6e32b2f18d7a111b398f62f7985f815914fe2cb))
+* **deps:** update all non-major dependency bump ([#117](https://github.com/FRSOURCE/toolkit/issues/117)) ([90449ef](https://github.com/FRSOURCE/toolkit/commit/90449efa15a8d9e8a4d76bc50e586e51a5b38f0a))
 
 ## [2.1.8](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v2.1.6...${npm.name}-v2.1.8) (2024-12-02)
 
