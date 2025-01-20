@@ -1,5 +1,7 @@
 # Changelog
 
+# [1.34.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/eslint-config-v1.33.0...${npm.name}-v1.34.0) (2025-01-20)
+
 # [1.33.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/eslint-config-v1.32.0...${npm.name}-v1.33.0) (2025-01-06)
 
 
