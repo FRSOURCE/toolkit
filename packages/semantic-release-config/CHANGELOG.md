@@ -1,5 +1,7 @@
 # Changelog
 
+# [1.44.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.43.0...${npm.name}-v1.44.0) (2025-02-10)
+
 # [1.43.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.42.0...${npm.name}-v1.43.0) (2025-02-03)
 
 # [1.42.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.41.0...${npm.name}-v1.42.0) (2025-02-03)
