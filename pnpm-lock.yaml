@@ -28,7 +28,7 @@ importers:
         version: 9.1.0(eslint@9.17.0)
       globals:
         specifier: ^15.0.0
-        version: 15.14.0
+        version: 15.15.0
       typescript-eslint:
         specifier: ^8.0.0
         version: 8.18.2(eslint@9.17.0)(typescript@5.7.3)
@@ -68,7 +68,7 @@ importers:
         version: 9.17.0
       globals:
         specifier: ^15.0.0
-        version: 15.14.0
+        version: 15.15.0
       prettier:
         specifier: ^3.2.5
         version: 3.4.2
@@ -118,7 +118,7 @@ importers:
         version: link:../prettier-config
       globals:
         specifier: ^15.0.0
-        version: 15.14.0
+        version: 15.15.0
       release-it:
         specifier: ^17.2.0
         version: 17.11.0(typescript@5.7.3)
@@ -160,8 +160,8 @@ importers:
         specifier: 22.13.5
         version: 22.13.5
       globals:
-        specifier: 15.14.0
-        version: 15.14.0
+        specifier: 15.15.0
+        version: 15.15.0
       release-it:
         specifier: 17.11.0
         version: 17.11.0(typescript@5.7.3)
@@ -1634,8 +1634,8 @@ packages:
     resolution: {integrity: sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==}
     engines: {node: '>=18'}
 
-  globals@15.14.0:
-    resolution: {integrity: sha512-OkToC372DtlQeje9/zHIo5CT8lRP/FUgEOKBEhU4e0abL7J7CD24fD9ohiLN5hagG/kWCYj4K5oaxxtj2Z0Dig==}
+  globals@15.15.0:
+    resolution: {integrity: sha512-7ACyT3wmyp3I61S4fG682L0VA2RGD9otkqGJIwNUMF1SWUombIIk+af1unuDYgMm082aHYwD+mzJvv9Iu8dsgg==}
     engines: {node: '>=18'}
 
   globalthis@1.0.4:
@@ -4846,7 +4846,7 @@ snapshots:
 
   globals@14.0.0: {}
 
-  globals@15.14.0: {}
+  globals@15.15.0: {}
 
   globalthis@1.0.4:
     dependencies:
