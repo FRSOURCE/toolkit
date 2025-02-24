@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.49.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.48.0...${npm.name}-v1.49.0) (2025-02-24)
+
+
+### Bug Fixes
+
+* **deps:** update all minor dependency bump ([#137](https://github.com/FRSOURCE/toolkit/issues/137)) ([ea55158](https://github.com/FRSOURCE/toolkit/commit/ea5515816f331d72568dbddc5c20cbc34f4b9595))
+
 # [1.48.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.47.0...${npm.name}-v1.48.0) (2025-02-24)
 
 # [1.47.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.46.0...${npm.name}-v1.47.0) (2025-02-17)
