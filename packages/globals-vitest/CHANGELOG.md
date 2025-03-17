@@ -1,5 +1,7 @@
 # Changelog
 
+## [3.0.9](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v3.0.8...${npm.name}-v3.0.9) (2025-03-17)
+
 ## [3.0.8](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v3.0.7...${npm.name}-v3.0.8) (2025-03-06)
 
 ## [3.0.7](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v3.0.6...${npm.name}-v3.0.7) (2025-02-25)
