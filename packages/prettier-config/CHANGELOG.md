@@ -1,5 +1,7 @@
 # Changelog
 
+# [1.26.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/prettier-config-v1.25.0...${npm.name}-v1.26.0) (2025-04-02)
+
 # [1.25.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/prettier-config-v1.24.0...${npm.name}-v1.25.0) (2025-03-10)
 
 # [1.24.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/prettier-config-v1.23.0...${npm.name}-v1.24.0) (2025-03-03)
