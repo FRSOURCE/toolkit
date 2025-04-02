@@ -19,7 +19,7 @@
     "@frsource/eslint-config": "workspace:*",
     "@frsource/prettier-config": "workspace:*",
     "globals": "^15.0.0",
-    "release-it": "^17.2.0",
+    "release-it": "^18.0.0",
     "typescript": "^5.4.5"
   },
   "peerDependencies": {
