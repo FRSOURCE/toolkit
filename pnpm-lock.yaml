@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  '@release-it/conventional-changelog>conventional-recommended-bump': ^10.0.0
+  '@release-it/conventional-changelog>conventional-recommended-bump': ^11.0.0
   '@release-it/conventional-changelog>conventional-changelog': ^6.0.0
 
 importers:
@@ -108,7 +108,7 @@ importers:
     dependencies:
       '@release-it/conventional-changelog':
         specifier: 9.0.4
-        version: 9.0.4(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.0.0)(release-it@18.1.2(@types/node@22.13.14)(typescript@5.7.3))
+        version: 9.0.4(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)(release-it@18.1.2(@types/node@22.13.14)(typescript@5.7.3))
     devDependencies:
       '@frsource/eslint-config':
         specifier: workspace:*
@@ -204,6 +204,18 @@ packages:
     peerDependencies:
       conventional-commits-filter: ^5.0.0
       conventional-commits-parser: ^6.0.0
+    peerDependenciesMeta:
+      conventional-commits-filter:
+        optional: true
+      conventional-commits-parser:
+        optional: true
+
+  '@conventional-changelog/git-client@2.0.0':
+    resolution: {integrity: sha512-6lD/xsDwx5xQ1dLgL1Ud47MHatuJpwVXbyHWZhlIUqRRTWTp1jRpwdk1roEaf752WA6LAbZY7elVkRQPHofUHA==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      conventional-commits-filter: ^5.0.0
+      conventional-commits-parser: ^6.1.0
     peerDependenciesMeta:
       conventional-commits-filter:
         optional: true
@@ -1234,8 +1246,13 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  conventional-recommended-bump@10.0.0:
-    resolution: {integrity: sha512-RK/fUnc2btot0oEVtrj3p2doImDSs7iiz/bftFCDzels0Qs1mxLghp+DFHMaOC0qiCI6sWzlTDyBFSYuot6pRA==}
+  conventional-commits-parser@6.1.0:
+    resolution: {integrity: sha512-5nxDo7TwKB5InYBl4ZC//1g9GRwB/F3TXOGR9hgUjMGfvSP4Vu5NkpNro2+1+TIEy1vwxApl5ircECr2ri5JIw==}
+    engines: {node: '>=18'}
+    hasBin: true
+
+  conventional-recommended-bump@11.0.0:
+    resolution: {integrity: sha512-+4JwCwCkPjQ6ii2rCw5CNPCuPs9hSyhzclSrleBc7NEoALTRs1jQcn1tBpr4n1nRdUecX1z6J2cxb+BnfM2WUQ==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -3288,6 +3305,21 @@ snapshots:
       conventional-commits-filter: 5.0.0
       conventional-commits-parser: 6.0.0
 
+  '@conventional-changelog/git-client@1.0.1(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)':
+    dependencies:
+      '@types/semver': 7.5.8
+      semver: 7.6.3
+    optionalDependencies:
+      conventional-commits-filter: 5.0.0
+      conventional-commits-parser: 6.1.0
+
+  '@conventional-changelog/git-client@2.0.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)':
+    dependencies:
+      semver: 7.6.3
+    optionalDependencies:
+      conventional-commits-filter: 5.0.0
+      conventional-commits-parser: 6.1.0
+
   '@esbuild/aix-ppc64@0.20.2':
     optional: true
 
@@ -3679,12 +3711,12 @@ snapshots:
       '@pnpm/network.ca-file': 1.0.2
       config-chain: 1.1.13
 
-  '@release-it/conventional-changelog@9.0.4(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.0.0)(release-it@18.1.2(@types/node@22.13.14)(typescript@5.7.3))':
+  '@release-it/conventional-changelog@9.0.4(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)(release-it@18.1.2(@types/node@22.13.14)(typescript@5.7.3))':
     dependencies:
       concat-stream: 2.0.0
       conventional-changelog: 6.0.0(conventional-commits-filter@5.0.0)
-      conventional-recommended-bump: 10.0.0
-      git-semver-tags: 8.0.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.0.0)
+      conventional-recommended-bump: 11.0.0
+      git-semver-tags: 8.0.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)
       release-it: 18.1.2(@types/node@22.13.14)(typescript@5.7.3)
       semver: 7.6.3
     transitivePeerDependencies:
@@ -4325,12 +4357,16 @@ snapshots:
     dependencies:
       meow: 13.2.0
 
-  conventional-recommended-bump@10.0.0:
+  conventional-commits-parser@6.1.0:
     dependencies:
-      '@conventional-changelog/git-client': 1.0.1(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.0.0)
+      meow: 13.2.0
+
+  conventional-recommended-bump@11.0.0:
+    dependencies:
+      '@conventional-changelog/git-client': 2.0.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)
       conventional-changelog-preset-loader: 5.0.0
       conventional-commits-filter: 5.0.0
-      conventional-commits-parser: 6.0.0
+      conventional-commits-parser: 6.1.0
       meow: 13.2.0
 
   convert-hrtime@5.0.0: {}
@@ -4929,6 +4965,14 @@ snapshots:
   git-semver-tags@8.0.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.0.0):
     dependencies:
       '@conventional-changelog/git-client': 1.0.1(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.0.0)
+      meow: 13.2.0
+    transitivePeerDependencies:
+      - conventional-commits-filter
+      - conventional-commits-parser
+
+  git-semver-tags@8.0.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0):
+    dependencies:
+      '@conventional-changelog/git-client': 1.0.1(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)
       meow: 13.2.0
     transitivePeerDependencies:
       - conventional-commits-filter
