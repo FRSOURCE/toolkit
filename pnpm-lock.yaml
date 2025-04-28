@@ -108,7 +108,7 @@ importers:
     dependencies:
       '@release-it/conventional-changelog':
         specifier: 9.0.4
-        version: 9.0.4(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)(release-it@18.1.2(@types/node@22.14.1)(typescript@5.7.3))
+        version: 9.0.4(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.0.0)(release-it@18.1.2(@types/node@22.14.1)(typescript@5.7.3))
     devDependencies:
       '@frsource/eslint-config':
         specifier: workspace:*
@@ -138,8 +138,8 @@ importers:
         specifier: 10.0.1
         version: 10.0.1(semantic-release@24.2.3(typescript@5.8.3))
       '@semantic-release/github':
-        specifier: 11.0.1
-        version: 11.0.1(semantic-release@24.2.3(typescript@5.8.3))
+        specifier: 11.0.2
+        version: 11.0.2(semantic-release@24.2.3(typescript@5.8.3))
       '@semantic-release/npm':
         specifier: 12.0.1
         version: 12.0.1(semantic-release@24.2.3(typescript@5.8.3))
@@ -611,11 +611,20 @@ packages:
   '@octokit/openapi-types@22.2.0':
     resolution: {integrity: sha512-QBhVjcUa9W7Wwhm6DBFu6ZZ+1/t/oYxqc2tp81Pi41YNuJinbFRx8B133qVOrAaBbF7D/m0Et6f9/pZt9Rc+tg==}
 
+  '@octokit/openapi-types@25.0.0':
+    resolution: {integrity: sha512-FZvktFu7HfOIJf2BScLKIEYjDsw6RKc7rBJCdvCTfKsVnx2GEB/Nbzjr29DUdb7vQhlzS/j8qDzdditP0OC6aw==}
+
   '@octokit/plugin-paginate-rest@11.3.1':
     resolution: {integrity: sha512-ryqobs26cLtM1kQxqeZui4v8FeznirUsksiA+RYemMPJ7Micju0WSkv50dBksTuZks9O5cg4wp+t8fZ/cLY56g==}
     engines: {node: '>= 18'}
     peerDependencies:
       '@octokit/core': '5'
+
+  '@octokit/plugin-paginate-rest@12.0.0':
+    resolution: {integrity: sha512-MPd6WK1VtZ52lFrgZ0R2FlaoiWllzgqFHaSZxvp72NmoDeZ0m8GeJdg4oB6ctqMTYyrnDYp592Xma21mrgiyDA==}
+    engines: {node: '>= 18'}
+    peerDependencies:
+      '@octokit/core': '>=6'
 
   '@octokit/plugin-request-log@5.3.1':
     resolution: {integrity: sha512-n/lNeCtq+9ofhC15xzmJCNKP2BWTv8Ih2TTy+jatNCCq/gQP/V7rK3fjIfuz0pDWDALO/o/4QY4hyOF6TQQFUw==}
@@ -635,11 +644,11 @@ packages:
     peerDependencies:
       '@octokit/core': '>=6'
 
-  '@octokit/plugin-throttling@9.3.0':
-    resolution: {integrity: sha512-B5YTToSRTzNSeEyssnrT7WwGhpIdbpV9NKIs3KyTWHX6PhpYn7gqF/+lL3BvsASBM3Sg5BAUYk7KZx5p/Ec77w==}
+  '@octokit/plugin-throttling@10.0.0':
+    resolution: {integrity: sha512-Kuq5/qs0DVYTHZuBAzCZStCzo2nKvVRo/TDNhCcpC2TKiOGz/DisXMCvjt3/b5kr6SCI1Y8eeeJTHBxxpFvZEg==}
     engines: {node: '>= 18'}
     peerDependencies:
-      '@octokit/core': ^6.0.0
+      '@octokit/core': ^6.1.3
 
   '@octokit/request-error@6.1.1':
     resolution: {integrity: sha512-1mw1gqT3fR/WFvnoVpY/zUM2o/XkMs/2AszUUG9I69xn0JFLv6PGkPhNk5lbfvROs79wiS0bqiJNxfCZcRJJdg==}
@@ -658,6 +667,9 @@ packages:
 
   '@octokit/types@13.6.2':
     resolution: {integrity: sha512-WpbZfZUcZU77DrSW4wbsSgTPfKcp286q3ItaIgvSbBpZJlu6mnYXAkjZz6LVZPXkEvLIM8McanyZejKTYUHipA==}
+
+  '@octokit/types@14.0.0':
+    resolution: {integrity: sha512-VVmZP0lEhbo2O1pdq63gZFiGCKkm8PPp8AUOijlwPO6hojEVjspA0MWKP7E4hbvGxzFKNqKr6p0IYtOH/Wf/zA==}
 
   '@pnpm/config.env-replace@1.1.0':
     resolution: {integrity: sha512-htyl8TWnKL7K/ESFa1oW2UB5lVDxuF5DpM7tBi6Hu2LNL3mWkIzNLG6N4zoCUP1lCKNxWy/3iu8mS8MvToGd6w==}
@@ -790,8 +802,8 @@ packages:
     peerDependencies:
       semantic-release: '>=18.0.0'
 
-  '@semantic-release/github@11.0.1':
-    resolution: {integrity: sha512-Z9cr0LgU/zgucbT9cksH0/pX9zmVda9hkDPcgIE0uvjMQ8w/mElDivGjx1w1pEQ+MuQJ5CBq3VCF16S6G4VH3A==}
+  '@semantic-release/github@11.0.2':
+    resolution: {integrity: sha512-EhHimj3/eOSPu0OflgDzwgrawoGJIn8XLOkNS6WzwuTr8ebxyX976Y4mCqJ8MlkdQpV5+8T+49sy8xXlcm6uCg==}
     engines: {node: '>=20.8.1'}
     peerDependencies:
       semantic-release: '>=24.1.0'
@@ -987,10 +999,6 @@ packages:
 
   add-stream@1.0.0:
     resolution: {integrity: sha512-qQLMr+8o0WC4FZGQTcJiKBVC59JylcPSrTtk6usvmIDFUOCKegapy1VHQwRbFMOFyb/inzUVqHs+eMYKDM1YeQ==}
-
-  agent-base@7.1.1:
-    resolution: {integrity: sha512-H0TSyFNDMomMNJQBn8wFV5YC/2eJ+VXECwOadZJT554xP6cODZHPX3H9QMQECxvrgiSOP1pHjy1sMWQVYJOUOA==}
-    engines: {node: '>= 14'}
 
   agent-base@7.1.3:
     resolution: {integrity: sha512-jRR5wdylq8CkOe6hei19GGZnxM6rBGwFl3Bg0YItGDimvjGtAvdZk4Pu6Cl4u4Igsws4a1fd1Vq3ezrhn4KmFw==}
@@ -1353,15 +1361,6 @@ packages:
 
   debug@4.3.4:
     resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
-    engines: {node: '>=6.0'}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
-
-  debug@4.3.7:
-    resolution: {integrity: sha512-Er2nc/H7RrMXZBFCEim6TCmMk02Z8vLC2Rbi1KEBggpo0fS6l0S1nnapwmIi3yW/+GOJap1Krg4w0Hg80oCqgQ==}
     engines: {node: '>=6.0'}
     peerDependencies:
       supports-color: '*'
@@ -1856,10 +1855,6 @@ packages:
 
   http-proxy-agent@7.0.2:
     resolution: {integrity: sha512-T1gkAiYYDWYx3V5Bmyu7HcfcvL7mUrTWiM6yOfa3PIphViJ/gFPbvidQ+veqSOHci/PxBcDabeUNCzpOODJZig==}
-    engines: {node: '>= 14'}
-
-  https-proxy-agent@7.0.5:
-    resolution: {integrity: sha512-1e4Wqeblerz+tMKPIq2EMGiiWW1dIjZOksyHWSUm1rmuvw/how9hBHZ38lAGj5ID4Ik6EdkOw7NmWPy6LAwalw==}
     engines: {node: '>= 14'}
 
   https-proxy-agent@7.0.6:
@@ -3373,14 +3368,6 @@ snapshots:
       conventional-commits-filter: 5.0.0
       conventional-commits-parser: 6.0.0
 
-  '@conventional-changelog/git-client@1.0.1(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)':
-    dependencies:
-      '@types/semver': 7.5.8
-      semver: 7.6.3
-    optionalDependencies:
-      conventional-commits-filter: 5.0.0
-      conventional-commits-parser: 6.1.0
-
   '@conventional-changelog/git-client@2.0.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)':
     dependencies:
       semver: 7.6.3
@@ -3691,7 +3678,7 @@ snapshots:
       '@octokit/graphql': 8.1.1
       '@octokit/request': 9.1.1
       '@octokit/request-error': 6.1.1
-      '@octokit/types': 13.6.1
+      '@octokit/types': 13.6.2
       before-after-hook: 3.0.2
       universal-user-agent: 7.0.2
 
@@ -3703,15 +3690,22 @@ snapshots:
   '@octokit/graphql@8.1.1':
     dependencies:
       '@octokit/request': 9.1.1
-      '@octokit/types': 13.6.1
+      '@octokit/types': 13.6.2
       universal-user-agent: 7.0.2
 
   '@octokit/openapi-types@22.2.0': {}
+
+  '@octokit/openapi-types@25.0.0': {}
 
   '@octokit/plugin-paginate-rest@11.3.1(@octokit/core@6.1.2)':
     dependencies:
       '@octokit/core': 6.1.2
       '@octokit/types': 13.6.1
+
+  '@octokit/plugin-paginate-rest@12.0.0(@octokit/core@6.1.2)':
+    dependencies:
+      '@octokit/core': 6.1.2
+      '@octokit/types': 14.0.0
 
   '@octokit/plugin-request-log@5.3.1(@octokit/core@6.1.2)':
     dependencies:
@@ -3726,24 +3720,24 @@ snapshots:
     dependencies:
       '@octokit/core': 6.1.2
       '@octokit/request-error': 6.1.1
-      '@octokit/types': 13.6.1
+      '@octokit/types': 13.6.2
       bottleneck: 2.19.5
 
-  '@octokit/plugin-throttling@9.3.0(@octokit/core@6.1.2)':
+  '@octokit/plugin-throttling@10.0.0(@octokit/core@6.1.2)':
     dependencies:
       '@octokit/core': 6.1.2
-      '@octokit/types': 13.6.1
+      '@octokit/types': 14.0.0
       bottleneck: 2.19.5
 
   '@octokit/request-error@6.1.1':
     dependencies:
-      '@octokit/types': 13.6.1
+      '@octokit/types': 13.6.2
 
   '@octokit/request@9.1.1':
     dependencies:
       '@octokit/endpoint': 10.1.1
       '@octokit/request-error': 6.1.1
-      '@octokit/types': 13.6.1
+      '@octokit/types': 13.6.2
       universal-user-agent: 7.0.2
 
   '@octokit/rest@21.0.2':
@@ -3760,6 +3754,10 @@ snapshots:
   '@octokit/types@13.6.2':
     dependencies:
       '@octokit/openapi-types': 22.2.0
+
+  '@octokit/types@14.0.0':
+    dependencies:
+      '@octokit/openapi-types': 25.0.0
 
   '@pnpm/config.env-replace@1.1.0': {}
 
@@ -3779,12 +3777,12 @@ snapshots:
       '@pnpm/network.ca-file': 1.0.2
       config-chain: 1.1.13
 
-  '@release-it/conventional-changelog@9.0.4(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)(release-it@18.1.2(@types/node@22.14.1)(typescript@5.7.3))':
+  '@release-it/conventional-changelog@9.0.4(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.0.0)(release-it@18.1.2(@types/node@22.14.1)(typescript@5.7.3))':
     dependencies:
       concat-stream: 2.0.0
       conventional-changelog: 6.0.0(conventional-commits-filter@5.0.0)
       conventional-recommended-bump: 11.0.0
-      git-semver-tags: 8.0.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)
+      git-semver-tags: 8.0.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.0.0)
       release-it: 18.1.2(@types/node@22.14.1)(typescript@5.7.3)
       semver: 7.6.3
     transitivePeerDependencies:
@@ -3881,19 +3879,19 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@semantic-release/github@11.0.1(semantic-release@24.2.3(typescript@5.8.3))':
+  '@semantic-release/github@11.0.2(semantic-release@24.2.3(typescript@5.8.3))':
     dependencies:
       '@octokit/core': 6.1.2
-      '@octokit/plugin-paginate-rest': 11.3.1(@octokit/core@6.1.2)
+      '@octokit/plugin-paginate-rest': 12.0.0(@octokit/core@6.1.2)
       '@octokit/plugin-retry': 7.1.1(@octokit/core@6.1.2)
-      '@octokit/plugin-throttling': 9.3.0(@octokit/core@6.1.2)
+      '@octokit/plugin-throttling': 10.0.0(@octokit/core@6.1.2)
       '@semantic-release/error': 4.0.0
       aggregate-error: 5.0.0
-      debug: 4.3.7
+      debug: 4.4.0
       dir-glob: 3.0.1
       globby: 14.0.2
       http-proxy-agent: 7.0.2
-      https-proxy-agent: 7.0.5
+      https-proxy-agent: 7.0.6
       issue-parser: 7.0.1
       lodash-es: 4.17.21
       mime: 4.0.3
@@ -4172,12 +4170,6 @@ snapshots:
   acorn@8.14.1: {}
 
   add-stream@1.0.0: {}
-
-  agent-base@7.1.1:
-    dependencies:
-      debug: 4.4.0
-    transitivePeerDependencies:
-      - supports-color
 
   agent-base@7.1.3: {}
 
@@ -4581,10 +4573,6 @@ snapshots:
   debug@4.3.4:
     dependencies:
       ms: 2.1.2
-
-  debug@4.3.7:
-    dependencies:
-      ms: 2.1.3
 
   debug@4.4.0:
     dependencies:
@@ -5128,14 +5116,6 @@ snapshots:
       - conventional-commits-filter
       - conventional-commits-parser
 
-  git-semver-tags@8.0.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0):
-    dependencies:
-      '@conventional-changelog/git-client': 1.0.1(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)
-      meow: 13.2.0
-    transitivePeerDependencies:
-      - conventional-commits-filter
-      - conventional-commits-parser
-
   git-up@8.0.1:
     dependencies:
       is-ssh: 1.4.0
@@ -5239,14 +5219,7 @@ snapshots:
 
   http-proxy-agent@7.0.2:
     dependencies:
-      agent-base: 7.1.1
-      debug: 4.4.0
-    transitivePeerDependencies:
-      - supports-color
-
-  https-proxy-agent@7.0.5:
-    dependencies:
-      agent-base: 7.1.1
+      agent-base: 7.1.3
       debug: 4.4.0
     transitivePeerDependencies:
       - supports-color
@@ -6131,7 +6104,7 @@ snapshots:
     dependencies:
       '@semantic-release/commit-analyzer': 13.0.1(semantic-release@24.2.3(typescript@5.8.3))
       '@semantic-release/error': 4.0.0
-      '@semantic-release/github': 11.0.1(semantic-release@24.2.3(typescript@5.8.3))
+      '@semantic-release/github': 11.0.2(semantic-release@24.2.3(typescript@5.8.3))
       '@semantic-release/npm': 12.0.1(semantic-release@24.2.3(typescript@5.8.3))
       '@semantic-release/release-notes-generator': 14.0.3(semantic-release@24.2.3(typescript@5.8.3))
       aggregate-error: 5.0.0
