@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.61.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.60.0...${npm.name}-v1.61.0) (2025-04-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @semantic-release/github to v11.0.2 ([#163](https://github.com/FRSOURCE/toolkit/issues/163)) ([26853ed](https://github.com/FRSOURCE/toolkit/commit/26853ede076ee09274a1b79f0f6eba2cb3cafe73))
+
 # [1.60.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.59.0...${npm.name}-v1.60.0) (2025-04-14)
 
 # [1.59.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.58.0...${npm.name}-v1.59.0) (2025-04-07)
