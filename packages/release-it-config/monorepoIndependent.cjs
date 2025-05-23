@@ -42,7 +42,9 @@ module.exports = ({
         gitRawCommitsOpts: {
           path: '.',
         },
-        preset: 'angular',
+        preset: {
+          name: 'angular',
+        },
         infile: 'CHANGELOG.md',
       },
       [`${pluginsPath}/cross-deps-version-plugin.mjs`]: {},

@@ -13,11 +13,5 @@
     "build": "pnpm run -r --workspace-concurrency=1 build",
     "lint": "pnpm run -r --parallel lint",
     "fix": "pnpm run -r --parallel fix"
-  },
-  "pnpm": {
-    "overrides": {
-      "@release-it/conventional-changelog>conventional-recommended-bump": "^11.0.0",
-      "@release-it/conventional-changelog>conventional-changelog": "^6.0.0"
-    }
   }
 }
