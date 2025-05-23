@@ -13,12 +13,14 @@
     "fix": "pnpm eslint --fix && prettier . --write"
   },
   "dependencies": {
-    "@release-it/conventional-changelog": "9.0.4"
+    "@release-it/conventional-changelog": "10.0.1"
   },
   "devDependencies": {
     "@frsource/eslint-config": "workspace:*",
     "@frsource/prettier-config": "workspace:*",
+    "eslint": "^9.1.0",
     "globals": "^15.0.0",
+    "prettier": "^3.2.5",
     "release-it": "^19.0.0",
     "typescript": "^5.4.5"
   },
