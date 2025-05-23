@@ -1,5 +1,17 @@
 # Changelog
 
+# [1.36.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.35.0...${npm.name}-v1.36.0) (2025-05-23)
+
+
+### Bug Fixes
+
+* release-it configuration after upgrade ([b562b0c](https://github.com/FRSOURCE/toolkit/commit/b562b0cfed85b1c2b388f9c239237a83013b018d))
+
+
+### Features
+
+* upgrade major version of release-it ([513c5e8](https://github.com/FRSOURCE/toolkit/commit/513c5e88ea0b01c6bc358ed9cd32ddc169e5d272))
+
 # [1.35.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.34.0...${npm.name}-v1.35.0) (2025-05-23)
 
 # [1.34.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.33.0...${npm.name}-v1.34.0) (2025-04-02)
