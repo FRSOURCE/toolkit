@@ -1,5 +1,7 @@
 # Changelog
 
+# [1.65.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.64.0...${npm.name}-v1.65.0) (2025-05-23)
+
 # [1.64.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.63.0...${npm.name}-v1.64.0) (2025-05-12)
 
 # [1.63.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.62.0...${npm.name}-v1.63.0) (2025-05-05)
