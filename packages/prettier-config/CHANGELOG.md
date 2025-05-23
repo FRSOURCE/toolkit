@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.28.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/prettier-config-v1.27.0...${npm.name}-v1.28.0) (2025-05-23)
+
+
+### Bug Fixes
+
+* release-it configuration after upgrade ([b562b0c](https://github.com/FRSOURCE/toolkit/commit/b562b0cfed85b1c2b388f9c239237a83013b018d))
+
 # [1.27.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/prettier-config-v1.26.0...${npm.name}-v1.27.0) (2025-05-23)
 
 # [1.26.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/prettier-config-v1.25.0...${npm.name}-v1.26.0) (2025-04-02)
