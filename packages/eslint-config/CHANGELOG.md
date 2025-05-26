@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.50.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/eslint-config-v1.49.0...${npm.name}-v1.50.0) (2025-05-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-prettier to v10 ([#176](https://github.com/FRSOURCE/toolkit/issues/176)) ([bc6f0e4](https://github.com/FRSOURCE/toolkit/commit/bc6f0e4e01ab1121a48da27f8bc292eba6e29670))
+
 # [1.49.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/eslint-config-v1.48.0...${npm.name}-v1.49.0) (2025-05-26)
 
 
