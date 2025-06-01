@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.52.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/eslint-config-v1.51.0...${npm.name}-v1.52.0) (2025-06-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency globals to v16 ([#180](https://github.com/FRSOURCE/toolkit/issues/180)) ([3f4af60](https://github.com/FRSOURCE/toolkit/commit/3f4af6092a497015771974430de0f04846f6d000))
+
 # [1.51.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/eslint-config-v1.50.0...${npm.name}-v1.51.0) (2025-06-01)
 
 
