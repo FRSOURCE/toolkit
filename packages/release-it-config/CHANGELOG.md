@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.38.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.37.0...${npm.name}-v1.38.0) (2025-06-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency globals to v16 ([#180](https://github.com/FRSOURCE/toolkit/issues/180)) ([3f4af60](https://github.com/FRSOURCE/toolkit/commit/3f4af6092a497015771974430de0f04846f6d000))
+
 # [1.37.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.36.0...${npm.name}-v1.37.0) (2025-05-23)
 
 # [1.36.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.35.0...${npm.name}-v1.36.0) (2025-05-23)
