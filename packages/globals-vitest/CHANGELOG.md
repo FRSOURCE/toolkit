@@ -1,5 +1,12 @@
 # Changelog
 
+# [3.2.0](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v3.1.4...${npm.name}-v3.2.0) (2025-06-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency globals to v16 ([#180](https://github.com/FRSOURCE/toolkit/issues/180)) ([3f4af60](https://github.com/FRSOURCE/toolkit/commit/3f4af6092a497015771974430de0f04846f6d000))
+
 ## [3.1.4](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v3.1.3...${npm.name}-v3.1.4) (2025-05-19)
 
 ## [3.1.3](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v3.1.2...${npm.name}-v3.1.3) (2025-05-05)
