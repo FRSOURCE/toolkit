@@ -23,7 +23,7 @@
     "@frsource/eslint-config": "workspace:*",
     "@frsource/prettier-config": "workspace:*",
     "@frsource/release-it-config": "workspace:*",
-    "@types/node": "22.16.0",
+    "@types/node": "22.16.3",
     "eslint": "^9.1.0",
     "globals": "16.3.0",
     "prettier": "^3.2.5",
