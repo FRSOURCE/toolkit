@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.57.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/eslint-config-v1.56.0...${npm.name}-v1.57.0) (2025-08-11)
+
+
+### Bug Fixes
+
+* **deps:** update all minor dependency bump ([#198](https://github.com/FRSOURCE/toolkit/issues/198)) ([ddc95f6](https://github.com/FRSOURCE/toolkit/commit/ddc95f63f3b3e5be9b4a8589410e65b9828683db))
+
 # [1.56.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/eslint-config-v1.55.0...${npm.name}-v1.56.0) (2025-08-01)
 
 
