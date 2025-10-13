@@ -1,6 +1,6 @@
 {
   "name": "@frsource/eslint-config",
-  "version": "1.62.0",
+  "version": "1.63.0",
   "main": "index.mjs",
   "types": "index.d.mts",
   "type": "module",
