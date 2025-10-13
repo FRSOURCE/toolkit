@@ -1,5 +1,7 @@
 # Changelog
 
+# [1.45.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.44.0...${npm.name}-v1.45.0) (2025-10-13)
+
 # [1.44.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.43.0...${npm.name}-v1.44.0) (2025-10-07)
 
 
