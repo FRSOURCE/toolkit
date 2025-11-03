@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.0.6](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v3.2.4...${npm.name}-v4.0.6) (2025-11-03)
+
+
+### Bug Fixes
+
+* **deps:** update all minor dependency bump ([#189](https://github.com/FRSOURCE/toolkit/issues/189)) ([244d291](https://github.com/FRSOURCE/toolkit/commit/244d291ac29f29dc00d30155343e440baf493211))
+* **deps:** update all minor dependency bump ([#196](https://github.com/FRSOURCE/toolkit/issues/196)) ([89db356](https://github.com/FRSOURCE/toolkit/commit/89db35634ccdc18ef41c544b55c6a3ad4ae15abe))
+* **deps:** update all minor dependency bump ([#198](https://github.com/FRSOURCE/toolkit/issues/198)) ([ddc95f6](https://github.com/FRSOURCE/toolkit/commit/ddc95f63f3b3e5be9b4a8589410e65b9828683db))
+* **deps:** update all minor dependency bump ([#201](https://github.com/FRSOURCE/toolkit/issues/201)) ([db43c1a](https://github.com/FRSOURCE/toolkit/commit/db43c1a611458d1b330c0db03ad395b47ec700ba))
+* **deps:** update all minor dependency bump ([#209](https://github.com/FRSOURCE/toolkit/issues/209)) ([4f7c5c0](https://github.com/FRSOURCE/toolkit/commit/4f7c5c01dfce7d94c34f1d5f2fceaeed21ab1a6d))
+
 ## [3.2.4](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v3.2.3...${npm.name}-v3.2.4) (2025-06-17)
 
 ## [3.2.3](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v3.2.2...${npm.name}-v3.2.3) (2025-06-09)
