@@ -2,6 +2,7 @@ import { createRequire } from 'node:module';
 import { writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
+import { moduleResolve } from 'import-meta-resolve';
 import ts from 'typescript';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -50,7 +51,11 @@ const {
 if (!vitestVersion) e('Vitest version cannot be read.');
 writeFileSync(join(__dirname, '..', 'VERSION'), vitestVersion);
 
-const globalsPath = require.resolve('vitest/globals.d.ts');
+const globalsPath = moduleResolve(
+  'vitest/globals',
+  import.meta.url,
+  new Set(['types']),
+).pathname;
 const globalsArray = extract(globalsPath);
 const globals = {};
 if (!globalsArray.length) e('No globals! Check extractor implementation.');
