@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.48.0](/compare/@frsource/release-it-config-v1.47.0...${npm.name}-v1.48.0) (2025-11-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @release-it/conventional-changelog to v10.0.2 (#228) d062e90, closes #228
+
 # [1.47.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.46.0...${npm.name}-v1.47.0) (2025-11-03)
 
 # [1.46.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.45.0...${npm.name}-v1.46.0) (2025-10-20)
