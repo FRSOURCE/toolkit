@@ -1,5 +1,7 @@
 # Changelog
 
+## [4.0.10](/compare/globals-vitest-v4.0.9...${npm.name}-v4.0.10) (2025-11-18)
+
 ## [4.0.9](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v4.0.8...${npm.name}-v4.0.9) (2025-11-14)
 
 ## [4.0.8](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v4.0.7...${npm.name}-v4.0.8) (2025-11-07)
