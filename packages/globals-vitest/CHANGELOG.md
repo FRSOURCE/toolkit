@@ -1,5 +1,7 @@
 # Changelog
 
+## [4.0.15](/compare/globals-vitest-v4.0.14...${npm.name}-v4.0.15) (2025-12-02)
+
 ## [4.0.14](/compare/globals-vitest-v4.0.13...${npm.name}-v4.0.14) (2025-11-25)
 
 ## [4.0.13](/compare/globals-vitest-v4.0.12...${npm.name}-v4.0.13) (2025-11-21)
