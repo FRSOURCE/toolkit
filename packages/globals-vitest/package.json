@@ -23,10 +23,10 @@
     "prettier": "^3.2.5",
     "release-it": "^19.0.0",
     "typescript": "^5.4.5",
-    "vitest": "4.0.17"
+    "vitest": "4.0.18"
   },
   "peerDependencies": {
-    "vitest": "4.0.17"
+    "vitest": "4.0.18"
   },
   "homepage": "https://github.com/FRSOURCE/toolkit/tree/main/packages/globals-vitest",
   "repository": {
