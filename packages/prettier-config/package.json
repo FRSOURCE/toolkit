@@ -15,7 +15,7 @@
   "devDependencies": {
     "@frsource/release-it-config": "workspace:*",
     "@frsource/eslint-config": "workspace:*",
-    "eslint": "^9.1.0",
+    "eslint": "^10.0.0",
     "prettier": "^3.2.5",
     "release-it": "^19.0.0",
     "typescript": "^5.4.5"
