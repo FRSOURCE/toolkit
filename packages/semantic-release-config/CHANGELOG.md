@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.102.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.101.0...${npm.name}-v1.102.0) (2026-02-25)
+
+
+### Bug Fixes
+
+* **deps:** update linters to v10 (major) ([#251](https://github.com/FRSOURCE/toolkit/issues/251)) ([2ba9104](https://github.com/FRSOURCE/toolkit/commit/2ba9104f5555de7ccc39e69b933f8e1b2e720b97))
+
 # [1.101.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.100.0...${npm.name}-v1.101.0) (2026-02-25)
 
 
