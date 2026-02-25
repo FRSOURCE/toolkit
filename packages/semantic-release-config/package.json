@@ -25,9 +25,9 @@
     "@frsource/release-it-config": "workspace:*",
     "@types/node": "24.10.13",
     "eslint": "^10.0.0",
-    "globals": "17.0.0",
+    "globals": "17.3.0",
     "prettier": "^3.2.5",
-    "release-it": "19.0.6",
+    "release-it": "19.2.4",
     "semantic-release": "24.2.9",
     "typescript": "5.9.3"
   },
@@ -48,7 +48,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "packageManager": "pnpm@10.20.0",
+  "packageManager": "pnpm@10.30.2",
   "keywords": [
     "semantic-release",
     "semantic-release config"
