@@ -1,5 +1,15 @@
 # Changelog
 
+# [1.49.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.48.0...${npm.name}-v1.49.0) (2026-02-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @release-it/conventional-changelog to v10.0.3 ([#240](https://github.com/FRSOURCE/toolkit/issues/240)) ([aeb8533](https://github.com/FRSOURCE/toolkit/commit/aeb8533b61fe5ae65abc2d161d9b1378082387ef))
+* **deps:** update dependency @release-it/conventional-changelog to v10.0.4 ([#242](https://github.com/FRSOURCE/toolkit/issues/242)) ([a7cd7f7](https://github.com/FRSOURCE/toolkit/commit/a7cd7f77add3b95d439d7bc57f81fe4e6832d149))
+* **deps:** update dependency @release-it/conventional-changelog to v10.0.5 ([#249](https://github.com/FRSOURCE/toolkit/issues/249)) ([adc6e63](https://github.com/FRSOURCE/toolkit/commit/adc6e63a32d926ba5903f551ae4a18cb4cf09a38))
+* **deps:** update dependency globals to v17 ([#243](https://github.com/FRSOURCE/toolkit/issues/243)) ([a8f8274](https://github.com/FRSOURCE/toolkit/commit/a8f82745fa5803b4707dc9d9149a7dcb716da7c5))
+
 # [1.48.0](/compare/@frsource/release-it-config-v1.47.0...${npm.name}-v1.48.0) (2025-11-17)
 
 
