@@ -1,4 +1,5 @@
 import prettier from 'eslint-config-prettier';
+import { defineConfig } from 'eslint/config';
 import js from '@eslint/js';
 import globals from 'globals';
 import { env } from 'node:process';
@@ -47,5 +48,4 @@ export const overrides = [
   },
 ];
 
-/** @type { import("eslint").Linter.Config[] } */
-export default [js.configs.recommended, prettier, ...overrides];
+export default defineConfig(js.configs.recommended, prettier, ...overrides);

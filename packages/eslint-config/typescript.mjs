@@ -3,6 +3,7 @@ import js from '@eslint/js';
 import ts from 'typescript-eslint';
 import globals from 'globals';
 import { overrides as javascriptOverrides } from './javascript.mjs';
+import { defineConfig } from 'eslint/config';
 
 /** @type { import("eslint").Linter.Config[] } */
 export const overrides = [
@@ -17,11 +18,9 @@ export const overrides = [
   ...javascriptOverrides,
 ];
 
-/** @type {ReturnType<import('typescript-eslint')['config']>} */
-const rules = ts.config(
+export default defineConfig(
   js.configs.recommended,
   ...ts.configs.strict,
   prettier,
   ...overrides,
 );
-export default rules;
