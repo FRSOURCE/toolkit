@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.101.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.100.0...${npm.name}-v1.101.0) (2026-02-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency globals to v17 ([#243](https://github.com/FRSOURCE/toolkit/issues/243)) ([a8f8274](https://github.com/FRSOURCE/toolkit/commit/a8f82745fa5803b4707dc9d9149a7dcb716da7c5))
+
 # [1.100.0](/compare/@frsource/semantic-release-config-v1.99.0...${npm.name}-v1.100.0) (2025-11-24)
 
 # [1.99.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.98.0...${npm.name}-v1.99.0) (2025-11-10)
