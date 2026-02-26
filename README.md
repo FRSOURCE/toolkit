@@ -4,4 +4,4 @@ A repository that holds a shared toolkit used throughout the FRSOURCE organizati
 
 - configuration files (e.g. prettier/eslint/etc),
 - supportive packages (e.g. globals-vitest)
-- GitHub Actions scripts.
+- shared GitHub Actions scripts.
