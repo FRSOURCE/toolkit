@@ -4,16 +4,19 @@
  * @param {string} options.pkgName name of the package in the monorepo, e.g. `@frsource/my-package`
  * @param {string} [options.buildCmd="pnpm build"] command that should be used to build the package, defaults to `pnpm build`
  * @param {string} [options.pluginsPath=""] (for internal usage only)
+ * @returns {import('release-it').Config}
  */
 module.exports = ({
   pkgName,
+  packageManager = 'pnpm',
   buildCmd = 'pnpm build',
   pluginsPath = '@frsource/release-it-config',
 }) => {
   return {
     npm: {
-      publishPath: '*.tgz',
       publish: true,
+      publishPackageManager: packageManager,
+      publishArgs: ['--no-git-checks'],
     },
     git: {
       requireBranch: 'main',
@@ -51,8 +54,6 @@ module.exports = ({
     },
     hooks: {
       'after:init': buildCmd,
-      'before:npm:release': 'pnpm pack',
-      'after:npm:release': 'rm *.tgz',
     },
   };
 };
