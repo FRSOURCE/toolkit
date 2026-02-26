@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.103.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.102.0...${npm.name}-v1.103.0) (2026-02-26)
+
+
+### Bug Fixes
+
+* **deps:** update semantic-release monorepo ([#237](https://github.com/FRSOURCE/toolkit/issues/237)) ([a115c26](https://github.com/FRSOURCE/toolkit/commit/a115c26b7e4adb829876e5ff4246bc349af8b446))
+
 # [1.102.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.101.0...${npm.name}-v1.102.0) (2026-02-25)
 
 
