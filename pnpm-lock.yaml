@@ -29,7 +29,7 @@ importers:
         specifier: ^17.0.0
         version: 17.3.0
       typescript-eslint:
-        specifier: ^8.0.0
+        specifier: 8.56.1
         version: 8.56.1(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3)
     devDependencies:
       '@frsource/prettier-config':
