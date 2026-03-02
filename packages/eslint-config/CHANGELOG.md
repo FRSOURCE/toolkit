@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.73.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/eslint-config-v1.72.0...${npm.name}-v1.73.0) (2026-03-02)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependency bump ([#252](https://github.com/FRSOURCE/toolkit/issues/252)) ([15afe47](https://github.com/FRSOURCE/toolkit/commit/15afe479c18e3ebcd14c64c03b490b061b78eeb1))
+
 # [1.72.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/eslint-config-v1.71.0...${npm.name}-v1.72.0) (2026-02-27)
 
 # [1.71.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/eslint-config-v1.70.0...${npm.name}-v1.71.0) (2026-02-26)
