@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.53.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.52.0...${npm.name}-v1.53.0) (2026-03-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @release-it/conventional-changelog to v10.0.6 ([#256](https://github.com/FRSOURCE/toolkit/issues/256)) ([cbf6fe8](https://github.com/FRSOURCE/toolkit/commit/cbf6fe82ec602fdccced561d42a47957ba0a547f))
+
 # [1.52.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.51.0...${npm.name}-v1.52.0) (2026-03-02)
 
 
