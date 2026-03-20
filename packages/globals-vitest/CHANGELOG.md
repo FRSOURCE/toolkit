@@ -1,5 +1,15 @@
 # Changelog
 
+# [4.1.0](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v4.0.15...${npm.name}-v4.1.0) (2026-03-20)
+
+
+### Bug Fixes
+
+* **deps:** update all minor dependency bump ([#255](https://github.com/FRSOURCE/toolkit/issues/255)) ([cc1c0f2](https://github.com/FRSOURCE/toolkit/commit/cc1c0f2f754556669985f908473c0dc708976122))
+* **deps:** update all non-major dependency bump ([#252](https://github.com/FRSOURCE/toolkit/issues/252)) ([15afe47](https://github.com/FRSOURCE/toolkit/commit/15afe479c18e3ebcd14c64c03b490b061b78eeb1))
+* **deps:** update dependency globals to v17 ([#243](https://github.com/FRSOURCE/toolkit/issues/243)) ([a8f8274](https://github.com/FRSOURCE/toolkit/commit/a8f82745fa5803b4707dc9d9149a7dcb716da7c5))
+* **deps:** update linters to v10 (major) ([#251](https://github.com/FRSOURCE/toolkit/issues/251)) ([2ba9104](https://github.com/FRSOURCE/toolkit/commit/2ba9104f5555de7ccc39e69b933f8e1b2e720b97))
+
 ## [4.0.15](/compare/globals-vitest-v4.0.14...${npm.name}-v4.0.15) (2025-12-02)
 
 ## [4.0.14](/compare/globals-vitest-v4.0.13...${npm.name}-v4.0.14) (2025-11-25)
