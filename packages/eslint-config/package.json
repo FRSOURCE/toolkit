@@ -14,11 +14,11 @@
   },
   "dependencies": {
     "@eslint/js": "^10.0.0",
-    "@typescript-eslint/eslint-plugin": "8.57.1",
-    "@typescript-eslint/parser": "8.57.1",
+    "@typescript-eslint/eslint-plugin": "8.57.2",
+    "@typescript-eslint/parser": "8.57.2",
     "eslint-config-prettier": "10.1.8",
     "globals": "^17.0.0",
-    "typescript-eslint": "8.57.1"
+    "typescript-eslint": "8.57.2"
   },
   "devDependencies": {
     "@frsource/prettier-config": "workspace:*",
