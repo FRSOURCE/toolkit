@@ -22,7 +22,7 @@
     "import-meta-resolve": "^4.2.0",
     "prettier": "^3.2.5",
     "release-it": "^19.0.0",
-    "typescript": "^5.4.5",
+    "typescript": "^6.0.0",
     "vitest": "4.1.5"
   },
   "peerDependencies": {
