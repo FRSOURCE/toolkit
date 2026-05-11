@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.1.6](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v4.1.5...${npm.name}-v4.1.6) (2026-05-11)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependency bump ([#280](https://github.com/FRSOURCE/toolkit/issues/280)) ([15ad6f5](https://github.com/FRSOURCE/toolkit/commit/15ad6f545dbb10c34a671f29878d54ec93a6462f))
+
 ## [4.1.5](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v4.1.4...${npm.name}-v4.1.5) (2026-04-21)
 
 ## [4.1.4](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v4.1.3...${npm.name}-v4.1.4) (2026-04-09)
