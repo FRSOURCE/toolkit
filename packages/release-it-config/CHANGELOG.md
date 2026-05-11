@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.57.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.56.0...${npm.name}-v1.57.0) (2026-05-11)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependency bump ([#280](https://github.com/FRSOURCE/toolkit/issues/280)) ([15ad6f5](https://github.com/FRSOURCE/toolkit/commit/15ad6f545dbb10c34a671f29878d54ec93a6462f))
+
 # [1.56.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.55.0...${npm.name}-v1.56.0) (2026-04-27)
 
 # [1.55.0](https://github.com/FRSOURCE/toolkit/compare/@frsource/release-it-config-v1.54.0...${npm.name}-v1.55.0) (2026-04-07)
