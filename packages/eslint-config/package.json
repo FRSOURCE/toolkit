@@ -25,7 +25,7 @@
     "@frsource/release-it-config": "workspace:*",
     "eslint": "^10.0.0",
     "prettier": "^3.2.5",
-    "release-it": "^19.0.0",
+    "release-it": "^20.0.0",
     "typescript": "^5.4.5"
   },
   "peerDependencies": {
