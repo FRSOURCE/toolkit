@@ -29,7 +29,7 @@
     "prettier": "^3.2.5",
     "release-it": "20.2.0",
     "semantic-release": "25.0.5",
-    "typescript": "5.9.3"
+    "typescript": "6.0.3"
   },
   "peerDependencies": {
     "semantic-release": ">= 24"
