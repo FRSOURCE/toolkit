@@ -1,6 +1,6 @@
 {
   "name": "@frsource/prettier-config",
-  "version": "1.46.0",
+  "version": "1.47.0",
   "main": "index.mjs",
   "types": "index.d.mts",
   "type": "module",
@@ -37,7 +37,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "packageManager": "pnpm@10.34.4",
+  "packageManager": "pnpm@11.9.0",
   "keywords": [
     "prettier",
     "prettier config"
