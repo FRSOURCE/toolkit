@@ -1,6 +1,6 @@
 {
   "name": "@frsource/release-it-config",
-  "version": "1.58.0",
+  "version": "1.59.1",
   "main": "index.cjs",
   "types": "index.d.cts",
   "type": "module",
@@ -13,7 +13,7 @@
     "fix": "pnpm eslint --fix && prettier . --write"
   },
   "dependencies": {
-    "@release-it/conventional-changelog": "10.0.6"
+    "@release-it/conventional-changelog": "11.0.1"
   },
   "devDependencies": {
     "@frsource/eslint-config": "workspace:*",
