@@ -4,7 +4,7 @@
   "main": "index.mjs",
   "types": "index.d.mts",
   "scripts": {
-    "build": "tsc index.mjs --declaration --emitDeclarationOnly --allowJs --moduleResolution bundler --target esnext",
+    "build": "tsc index.mjs --declaration --emitDeclarationOnly --allowJs --moduleResolution bundler --target esnext --skipLibCheck",
     "release": "release-it",
     "eslint": "eslint .",
     "prettier": "prettier . --check",
