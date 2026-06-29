@@ -46,7 +46,7 @@ importers:
         version: 3.8.4
       release-it:
         specifier: ^20.0.0
-        version: 20.2.0(@types/node@24.13.2)
+        version: 20.2.1(@types/node@24.13.2)
       typescript:
         specifier: ^6.0.0
         version: 6.0.3
@@ -76,7 +76,7 @@ importers:
         version: 3.8.4
       release-it:
         specifier: ^20.0.0
-        version: 20.2.0(@types/node@24.13.2)
+        version: 20.2.1(@types/node@24.13.2)
       typescript:
         specifier: ^6.0.0
         version: 6.0.3
@@ -100,7 +100,7 @@ importers:
         version: 3.8.4
       release-it:
         specifier: ^20.0.0
-        version: 20.2.0(@types/node@24.13.2)
+        version: 20.2.1(@types/node@24.13.2)
       typescript:
         specifier: ^6.0.0
         version: 6.0.3
@@ -109,7 +109,7 @@ importers:
     dependencies:
       '@release-it/conventional-changelog':
         specifier: 11.0.1
-        version: 11.0.1(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.3.0)(release-it@20.2.0(@types/node@24.13.2))
+        version: 11.0.1(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.3.0)(release-it@20.2.1(@types/node@24.13.2))
     devDependencies:
       '@frsource/eslint-config':
         specifier: workspace:*
@@ -128,7 +128,7 @@ importers:
         version: 3.8.4
       release-it:
         specifier: ^20.0.0
-        version: 20.2.0(@types/node@24.13.2)
+        version: 20.2.1(@types/node@24.13.2)
       typescript:
         specifier: ^6.0.0
         version: 6.0.3
@@ -176,8 +176,8 @@ importers:
         specifier: ^3.2.5
         version: 3.8.4
       release-it:
-        specifier: 20.2.0
-        version: 20.2.0(@types/node@24.13.2)
+        specifier: 20.2.1
+        version: 20.2.1(@types/node@24.13.2)
       semantic-release:
         specifier: 25.0.5
         version: 25.0.5(typescript@6.0.3)
@@ -2374,8 +2374,8 @@ packages:
     resolution: {integrity: sha512-GdekYuwLXLxMuFTwAPg5UKGLW/UXzQrZvH/Zj791BQif5T05T0RsaLfHc9q3ZOKi7n+BoprPD9mJ0O0k4xzUlw==}
     engines: {node: '>=14'}
 
-  release-it@20.2.0:
-    resolution: {integrity: sha512-9ZTk9ripgctC6VTqH+P54KuboK29A5mG/I3tFfS5hnoAnkwtFFAMHRidYz93ylrW995vF50Ny1aOGJiyRmEN7w==}
+  release-it@20.2.1:
+    resolution: {integrity: sha512-xd0mqTGduwQlEzVBKOJcoVZxDrRLzjmFv3W8tWwkPIPDYtwYBWYjULiSk6VhfuGKocfz7GmptAqViKMQV4Zzbw==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24.0.0}
     hasBin: true
 
@@ -2707,8 +2707,8 @@ packages:
     resolution: {integrity: sha512-RqslV2Us5BrllB+JeiZnK4peryVTndy9Dnqq62S3yYRRTj0tFQCwEniUy2167skdGOy3vqRzEvl1Dm4sV2ReDg==}
     engines: {node: '>=20.18.1'}
 
-  undici@7.24.5:
-    resolution: {integrity: sha512-3IWdCpjgxp15CbJnsi/Y9TCDE7HWVN19j1hmzVhoAkY/+CJx449tVxT5wZc1Gwg8J+P0LWvzlBzxYRnHJ+1i7Q==}
+  undici@7.28.0:
+    resolution: {integrity: sha512-cRZYrTDwWznlnRiPjggAGxZXanty6M8RV1ff8Wm4LWXBp7/IG8v5DnOm74DtUBp9OONpK75YlPnIjQqX0dBDtA==}
     engines: {node: '>=20.18.1'}
 
   unicode-emoji-modifier-base@1.0.0:
@@ -3287,7 +3287,7 @@ snapshots:
       '@pnpm/network.ca-file': 1.0.2
       config-chain: 1.1.13
 
-  '@release-it/conventional-changelog@11.0.1(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.3.0)(release-it@20.2.0(@types/node@24.13.2))':
+  '@release-it/conventional-changelog@11.0.1(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.3.0)(release-it@20.2.1(@types/node@24.13.2))':
     dependencies:
       '@conventional-changelog/git-client': 2.7.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.3.0)
       concat-stream: 2.0.0
@@ -3295,7 +3295,7 @@ snapshots:
       conventional-changelog-angular: 8.3.1
       conventional-changelog-conventionalcommits: 9.3.1
       conventional-recommended-bump: 11.2.0
-      release-it: 20.2.0(@types/node@24.13.2)
+      release-it: 20.2.1(@types/node@24.13.2)
       semver: 7.8.5
     transitivePeerDependencies:
       - conventional-commits-filter
@@ -4645,7 +4645,7 @@ snapshots:
   normalize-package-data@8.0.0:
     dependencies:
       hosted-git-info: 9.0.2
-      semver: 7.8.5
+      semver: 7.7.4
       validate-npm-package-license: 3.0.4
 
   normalize-url@9.0.0: {}
@@ -4951,7 +4951,7 @@ snapshots:
     dependencies:
       '@pnpm/npm-conf': 2.3.1
 
-  release-it@20.2.0(@types/node@24.13.2):
+  release-it@20.2.1(@types/node@24.13.2):
     dependencies:
       '@inquirer/prompts': 8.4.2(@types/node@24.13.2)
       '@octokit/rest': 22.0.1
@@ -4972,7 +4972,7 @@ snapshots:
       proxy-agent: 7.0.0
       semver: 7.7.4
       tinyglobby: 0.2.15
-      undici: 7.24.5
+      undici: 7.28.0
       url-join: 5.0.0
       wildcard-match: 5.1.4
       yargs-parser: 22.0.0
@@ -5315,7 +5315,7 @@ snapshots:
 
   undici@7.22.0: {}
 
-  undici@7.24.5: {}
+  undici@7.28.0: {}
 
   unicode-emoji-modifier-base@1.0.0: {}
 
