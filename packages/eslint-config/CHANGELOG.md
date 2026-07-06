@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.85.3](https://github.com/FRSOURCE/toolkit/compare/@frsource/eslint-config-v1.85.2...${npm.name}-v1.85.3) (2026-07-06)
+
+
+### Bug Fixes
+
+* **deps:** update linters to v8.62.1 ([#298](https://github.com/FRSOURCE/toolkit/issues/298)) ([50291f7](https://github.com/FRSOURCE/toolkit/commit/50291f734233200f4a21c8d049939709e9af0ddc))
+
 ## [1.85.2](https://github.com/FRSOURCE/toolkit/compare/@frsource/eslint-config-v1.85.1...${npm.name}-v1.85.2) (2026-06-25)
 
 ## [1.85.1](https://github.com/FRSOURCE/toolkit/compare/@frsource/eslint-config-v1.85.0...${npm.name}-v1.85.1) (2026-06-25)
