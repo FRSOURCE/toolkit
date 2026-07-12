@@ -5,4 +5,4 @@ allowBuilds:
   esbuild: true
 
 overrides:
-  "conventional-changelog-conventionalcommits": "9.3.1"
+  "conventional-changelog-conventionalcommits": "10.2.1"
