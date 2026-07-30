@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.116.11](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.116.10...${npm.name}-v1.116.11) (2026-07-30)
+
 ## [1.116.10](https://github.com/FRSOURCE/toolkit/compare/@frsource/semantic-release-config-v1.116.9...${npm.name}-v1.116.10) (2026-07-27)
 
 
