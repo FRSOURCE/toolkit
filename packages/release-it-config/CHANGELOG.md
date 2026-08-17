@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.59.10](https://github.com/FRSOURCE/toolkit/compare/%40frsource%2Frelease-it-config-v1.59.9...%24%7Bnpm.name%7D-v1.59.10) (2026-08-17)
+
+### Bug Fixes
+
+* **deps:** update all minor dependency bump ([#320](https://github.com/FRSOURCE/toolkit/issues/320)) ([e0e39d7](https://github.com/FRSOURCE/toolkit/commit/e0e39d7c468d71948f19a7f25fc4ff623f05ef6f))
+
 ## [1.59.9](https://github.com/FRSOURCE/toolkit/compare/%40frsource%2Frelease-it-config-v1.59.8...%24%7Bnpm.name%7D-v1.59.9) (2026-07-30)
 
 ### Bug Fixes
