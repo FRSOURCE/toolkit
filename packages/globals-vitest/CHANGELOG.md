@@ -1,5 +1,14 @@
 # Changelog
 
+## [4.1.11](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v4.1.10...%24%7Bnpm.name%7D-v4.1.11) (2026-08-19)
+
+### Bug Fixes
+
+* **deps:** update all minor dependency bump ([#302](https://github.com/FRSOURCE/toolkit/issues/302)) ([1c994ea](https://github.com/FRSOURCE/toolkit/commit/1c994ea26ac0b86649dae4f9d858b7f87c252a4c))
+* **deps:** update all minor dependency bump ([#304](https://github.com/FRSOURCE/toolkit/issues/304)) ([ec8780b](https://github.com/FRSOURCE/toolkit/commit/ec8780b099266a4660ee4dc898ddfddb535f7cc9))
+* **deps:** update all minor dependency bump ([#309](https://github.com/FRSOURCE/toolkit/issues/309)) ([b216e0c](https://github.com/FRSOURCE/toolkit/commit/b216e0ca4f20c4f7e6f4585d8e25c47c83583ea8))
+* **deps:** update all minor dependency bump ([#320](https://github.com/FRSOURCE/toolkit/issues/320)) ([e0e39d7](https://github.com/FRSOURCE/toolkit/commit/e0e39d7c468d71948f19a7f25fc4ff623f05ef6f))
+
 ## [4.1.10](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v4.1.9...${npm.name}-v4.1.10) (2026-07-07)
 
 ## [4.1.9](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v4.1.6...${npm.name}-v4.1.9) (2026-06-23)
