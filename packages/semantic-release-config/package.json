@@ -1,6 +1,6 @@
 {
   "name": "@frsource/semantic-release-config",
-  "version": "1.116.16",
+  "version": "1.116.17",
   "main": "index.mjs",
   "types": "index.d.mts",
   "scripts": {
