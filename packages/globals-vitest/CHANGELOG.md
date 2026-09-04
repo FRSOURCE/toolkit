@@ -1,5 +1,11 @@
 # Changelog
 
+# [5.0.0](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v4.1.11...%24%7Bnpm.name%7D-v5.0.0) (2026-09-04)
+
+### Bug Fixes
+
+* **deps:** update all minor dependency bump ([#322](https://github.com/FRSOURCE/toolkit/issues/322)) ([b570b1f](https://github.com/FRSOURCE/toolkit/commit/b570b1f6cc557677e2cee64108a7cfcb4919e572))
+
 ## [4.1.11](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v4.1.10...%24%7Bnpm.name%7D-v4.1.11) (2026-08-19)
 
 ### Bug Fixes
