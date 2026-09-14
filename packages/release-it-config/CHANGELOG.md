@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.59.13](https://github.com/FRSOURCE/toolkit/compare/%40frsource%2Frelease-it-config-v1.59.12...%24%7Bnpm.name%7D-v1.59.13) (2026-09-14)
+
 ## [1.59.12](https://github.com/FRSOURCE/toolkit/compare/%40frsource%2Frelease-it-config-v1.59.11...%24%7Bnpm.name%7D-v1.59.12) (2026-09-14)
 
 ### Bug Fixes
