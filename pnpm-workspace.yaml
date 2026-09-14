@@ -6,3 +6,5 @@ allowBuilds:
 
 overrides:
   "conventional-changelog-conventionalcommits": "10.4.0"
+
+ignoreWorkspaceCycles: true
