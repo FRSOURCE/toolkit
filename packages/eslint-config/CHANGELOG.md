@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.85.12](https://github.com/FRSOURCE/toolkit/compare/%40frsource%2Feslint-config-v1.85.11...%24%7Bnpm.name%7D-v1.85.12) (2026-09-14)
+
 ## [1.85.11](https://github.com/FRSOURCE/toolkit/compare/%40frsource%2Feslint-config-v1.85.10...%24%7Bnpm.name%7D-v1.85.11) (2026-09-14)
 
 ### Bug Fixes
