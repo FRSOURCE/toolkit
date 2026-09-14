@@ -1,6 +1,6 @@
 {
   "name": "@frsource/release-it-config",
-  "version": "1.59.11",
+  "version": "1.59.12",
   "main": "index.cjs",
   "types": "index.d.cts",
   "type": "module",
