@@ -1,6 +1,6 @@
 {
   "name": "@frsource/semantic-release-config",
-  "version": "1.116.17",
+  "version": "1.116.18",
   "main": "index.mjs",
   "types": "index.d.mts",
   "scripts": {
@@ -23,7 +23,7 @@
     "@frsource/eslint-config": "workspace:*",
     "@frsource/prettier-config": "workspace:*",
     "@frsource/release-it-config": "workspace:*",
-    "@types/node": "24.13.3",
+    "@types/node": "24.13.4",
     "eslint": "^10.0.0",
     "globals": "17.12.0",
     "prettier": "^3.2.5",
