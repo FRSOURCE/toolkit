@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.59.15](https://github.com/FRSOURCE/toolkit/compare/%40frsource%2Frelease-it-config-v1.59.14...%24%7Bnpm.name%7D-v1.59.15) (2026-09-21)
+
+### Bug Fixes
+
+* **deps:** update dependency @release-it/conventional-changelog to v12.0.2 ([#330](https://github.com/FRSOURCE/toolkit/issues/330)) ([015c328](https://github.com/FRSOURCE/toolkit/commit/015c3281b184f85f79dc958348293f473cf313b5))
+
 ## [1.59.14](https://github.com/FRSOURCE/toolkit/compare/%40frsource%2Frelease-it-config-v1.59.13...%24%7Bnpm.name%7D-v1.59.14) (2026-09-21)
 
 ### Bug Fixes
