@@ -1,6 +1,6 @@
 {
   "name": "@frsource/prettier-config",
-  "version": "1.47.12",
+  "version": "1.47.13",
   "main": "index.mjs",
   "types": "index.d.mts",
   "type": "module",
