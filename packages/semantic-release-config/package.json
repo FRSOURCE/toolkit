@@ -16,14 +16,14 @@
     "@semantic-release/commit-analyzer": "13.0.1",
     "@semantic-release/git": "11.0.1",
     "@semantic-release/github": "12.0.10",
-    "@semantic-release/npm": "13.1.5",
+    "@semantic-release/npm": "13.2.0",
     "@semantic-release/release-notes-generator": "14.1.1"
   },
   "devDependencies": {
     "@frsource/eslint-config": "workspace:*",
     "@frsource/prettier-config": "workspace:*",
     "@frsource/release-it-config": "workspace:*",
-    "@types/node": "24.13.6",
+    "@types/node": "24.19.0",
     "eslint": "^10.0.0",
     "globals": "17.12.0",
     "prettier": "^3.2.5",
@@ -48,7 +48,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "packageManager": "pnpm@12.5.1",
+  "packageManager": "pnpm@12.6.0",
   "keywords": [
     "semantic-release",
     "semantic-release config"
