@@ -1,5 +1,11 @@
 # Changelog
 
+# [1.60.0](https://github.com/FRSOURCE/toolkit/compare/%40frsource%2Frelease-it-config-v1.59.16...%24%7Bnpm.name%7D-v1.60.0) (2026-10-01)
+
+### Features
+
+* **release-it-config:** support npm trusted publishing ([#336](https://github.com/FRSOURCE/toolkit/issues/336)) ([4fd7826](https://github.com/FRSOURCE/toolkit/commit/4fd7826ee4e714e2677b1894e9228914d200eb5c))
+
 ## [1.59.16](https://github.com/FRSOURCE/toolkit/compare/%40frsource%2Frelease-it-config-v1.59.15...%24%7Bnpm.name%7D-v1.59.16) (2026-09-29)
 
 ### Bug Fixes
