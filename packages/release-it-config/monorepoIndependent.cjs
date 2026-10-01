@@ -17,6 +17,8 @@ module.exports = ({
       publish: true,
       publishPackageManager: packageManager,
       publishArgs: ['--no-git-checks'],
+      // required for npm trusted publishing (OIDC)
+      skipChecks: true,
     },
     git: {
       requireBranch: 'main',

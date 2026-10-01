@@ -31,6 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      id-token: write # npm trusted publishing (OIDC) + provenance
     concurrency:
       group: release
     needs: [lint-and-build]
@@ -50,16 +51,9 @@ jobs:
           node-version-file: ".nvmrc"
           cache: 'pnpm'
       - run: pnpm install --frozen-lockfile
-      - name: Authenticate with Registry
-        run: |
-          npm config set //registry.npmjs.org/:_authToken $NPM_TOKEN
-          npm whoami
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: release package
         if: ${{ success() }}
         run: NODE_DEBUG=release-it:* pnpm release
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_CONFIG_REGISTRY: https://registry.npmjs.org/
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
