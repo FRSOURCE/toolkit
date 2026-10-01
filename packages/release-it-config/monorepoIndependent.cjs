@@ -17,6 +17,10 @@ module.exports = ({
       publish: true,
       publishPackageManager: packageManager,
       publishArgs: ['--no-git-checks'],
+      // Packages are published with npm trusted publishing (OIDC), so there is no
+      // token for the `npm whoami` / collaborator pre-checks release-it runs by default.
+      // Skipping them only drops informational warnings; publishing still fails loudly.
+      skipChecks: true,
     },
     git: {
       requireBranch: 'main',
