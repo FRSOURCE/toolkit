@@ -1,5 +1,7 @@
 # Changelog
 
+## [5.0.5](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v5.0.4...%24%7Bnpm.name%7D-v5.0.5) (2026-10-16)
+
 ## [5.0.4](https://github.com/FRSOURCE/toolkit/compare/globals-vitest-v5.0.3...%24%7Bnpm.name%7D-v5.0.4) (2026-10-13)
 
 ### Bug Fixes
