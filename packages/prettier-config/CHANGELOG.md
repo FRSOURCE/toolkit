@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.48.1](https://github.com/FRSOURCE/toolkit/compare/%40frsource%2Fprettier-config-v1.48.0...%24%7Bnpm.name%7D-v1.48.1) (2026-10-19)
+
 # [1.48.0](https://github.com/FRSOURCE/toolkit/compare/%40frsource%2Fprettier-config-v1.47.13...%24%7Bnpm.name%7D-v1.48.0) (2026-10-06)
 
 ### Bug Fixes
