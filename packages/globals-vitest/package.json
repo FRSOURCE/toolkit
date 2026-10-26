@@ -42,7 +42,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "packageManager": "pnpm@12.14.0",
+  "packageManager": "pnpm@12.15.0",
   "keywords": [
     "eslint",
     "vitest",
