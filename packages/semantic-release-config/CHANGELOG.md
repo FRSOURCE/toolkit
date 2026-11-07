@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.117.7](https://github.com/FRSOURCE/toolkit/compare/%40frsource%2Fsemantic-release-config-v1.117.6...%24%7Bnpm.name%7D-v1.117.7) (2026-11-07)
+
+### Bug Fixes
+
+* **semantic-release-config:** skip releases when the packed output is unchanged ([#350](https://github.com/FRSOURCE/toolkit/issues/350)) ([052c422](https://github.com/FRSOURCE/toolkit/commit/052c422b41c2b7a848b86916bfa1a0bc30c0555d))
+
 ## [1.117.6](https://github.com/FRSOURCE/toolkit/compare/%40frsource%2Fsemantic-release-config-v1.117.5...%24%7Bnpm.name%7D-v1.117.6) (2026-11-02)
 
 ## [1.117.5](https://github.com/FRSOURCE/toolkit/compare/%40frsource%2Fsemantic-release-config-v1.117.4...%24%7Bnpm.name%7D-v1.117.5) (2026-10-26)
