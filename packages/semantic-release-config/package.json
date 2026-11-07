@@ -5,6 +5,7 @@
   "types": "index.d.mts",
   "scripts": {
     "build": "tsc index.mjs --declaration --emitDeclarationOnly --allowJs --moduleResolution bundler --target esnext --skipLibCheck",
+    "test": "node --test",
     "release": "release-it",
     "eslint": "eslint .",
     "prettier": "prettier . --check",
