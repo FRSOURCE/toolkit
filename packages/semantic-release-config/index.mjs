@@ -1,3 +1,5 @@
+import { analyzeCommits } from './skip-unchanged.mjs';
+
 /**
  * @type {import('semantic-release').GlobalConfig}
  */
@@ -5,7 +7,7 @@ export default {
   branches: ['main'],
   plugins: [
     [
-      '@semantic-release/commit-analyzer',
+      { analyzeCommits },
       {
         releaseRules: [{ type: 'chore', scope: 'deps', release: 'patch' }],
       },
