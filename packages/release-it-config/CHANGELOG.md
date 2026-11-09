@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.60.4](https://github.com/FRSOURCE/toolkit/compare/%40frsource%2Frelease-it-config-v1.60.3...%24%7Bnpm.name%7D-v1.60.4) (2026-11-09)
+
 ## [1.60.3](https://github.com/FRSOURCE/toolkit/compare/%40frsource%2Frelease-it-config-v1.60.2...%24%7Bnpm.name%7D-v1.60.3) (2026-10-26)
 
 ### Bug Fixes
