@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.48.4](https://github.com/FRSOURCE/toolkit/compare/%40frsource%2Fprettier-config-v1.48.3...%24%7Bnpm.name%7D-v1.48.4) (2026-11-24)
+
+### Bug Fixes
+
+* **deps:** update all minor dependency bump ([#356](https://github.com/FRSOURCE/toolkit/issues/356)) ([3deb918](https://github.com/FRSOURCE/toolkit/commit/3deb9186eedca2895dbf31f8db67d1d34bdedf44))
+
 ## [1.48.3](https://github.com/FRSOURCE/toolkit/compare/%40frsource%2Fprettier-config-v1.48.2...%24%7Bnpm.name%7D-v1.48.3) (2026-11-09)
 
 ## [1.48.2](https://github.com/FRSOURCE/toolkit/compare/%40frsource%2Fprettier-config-v1.48.1...%24%7Bnpm.name%7D-v1.48.2) (2026-10-26)
