@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.86.7](https://github.com/FRSOURCE/toolkit/compare/%40frsource%2Feslint-config-v1.86.6...%24%7Bnpm.name%7D-v1.86.7) (2026-11-24)
+
+### Bug Fixes
+
+* **deps:** update all minor dependency bump ([#356](https://github.com/FRSOURCE/toolkit/issues/356)) ([3deb918](https://github.com/FRSOURCE/toolkit/commit/3deb9186eedca2895dbf31f8db67d1d34bdedf44))
+
 ## [1.86.6](https://github.com/FRSOURCE/toolkit/compare/%40frsource%2Feslint-config-v1.86.5...%24%7Bnpm.name%7D-v1.86.6) (2026-11-16)
 
 ### Bug Fixes
